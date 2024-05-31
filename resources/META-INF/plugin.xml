@@ -1,0 +1,41 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>gnome-theme</id>
+    <version>1.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Gnome Theme</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="karen.torosyan@outlook.com">Karen Torosyan</vendor>
+
+    <idea-version since-build="231" until-build="241.*"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description>This plugin includes both comfortable Dark and Light UI and Schemes for all supported languages</description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes>
+    <![CDATA[
+        Initial release
+    ]]>
+    </change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="gnome-light-header" path="/theme/GnomeLightHeader.theme.json"/>
+        <themeProvider id="gnome-light" path="/theme/GnomeLight.theme.json"/>
+
+        <themeProvider id="gnome-dark-header" path="/theme/GnomeDarkHeader.theme.json"/>
+        <themeProvider id="gnome-dark" path="/theme/GnomeDark.theme.json"/>
+    </extensions>
+</idea-plugin>
