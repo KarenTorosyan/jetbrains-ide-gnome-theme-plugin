@@ -6,6 +6,8 @@
   "editorScheme": "/GnomeDark.xml",
   "colors": {
     "EditorHeader": "#191917",
+    "EditorColor": "#1E1E1E",
+    "BorderColor": "Gray3",
     "Gray1": "#262626",
     "Gray2": "#252524",
     "Gray3": "#333333",
@@ -115,7 +117,7 @@
     "*": {
       "foreground": "Gray12",
       "background":  "Gray2",
-      "borderColor": "Gray1",
+      "borderColor": "BorderColor",
 
       "disabledText": "Gray6",
       "disabledForeground": "Gray6",
@@ -162,8 +164,8 @@
       "MnemonicCurrent.background": "Blue7"
     },
 
-    "Borders.color": "Gray1",
-    "Borders.ContrastBorderColor": "Gray1",
+    "Borders.color": "BorderColor",
+    "Borders.ContrastBorderColor": "BorderColor",
 
     "Breakpoint.iconHoverAlpha": 0.35,
 
@@ -307,7 +309,7 @@
 
     "Editor": {
       "SearchField" : {
-        "background": "Gray1"
+        "background": "EditorColor"
       },
 
       "Toolbar" : {
