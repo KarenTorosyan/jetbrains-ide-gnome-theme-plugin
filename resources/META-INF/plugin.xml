@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>1.1</version>
+    <version>1.2</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -17,7 +17,7 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>This plugin includes both comfortable Dark and Light UI and Schemes for all supported languages</description>
+    <description>This plugin includes dark, black, and white UI with color schemes for all supported languages.</description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
@@ -25,6 +25,7 @@
     <![CDATA[
         <div><b>1.0</b> Initial release</div>
         <div><b>1.1</b> Improved dark color scheme</div>
+        <div><b>1.2</b> Crated a black theme</div>
     ]]>
     </change-notes>
 
@@ -35,6 +36,9 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="gnome-light-header" path="/theme/GnomeLightHeader.theme.json"/>
         <themeProvider id="gnome-light" path="/theme/GnomeLight.theme.json"/>
+
+        <themeProvider id="gnome-black-header" path="/theme/GnomeBlackHeader.theme.json"/>
+        <themeProvider id="gnome-black" path="/theme/GnomeBlack.theme.json"/>
 
         <themeProvider id="gnome-dark-header" path="/theme/GnomeDarkHeader.theme.json"/>
         <themeProvider id="gnome-dark" path="/theme/GnomeDark.theme.json"/>
