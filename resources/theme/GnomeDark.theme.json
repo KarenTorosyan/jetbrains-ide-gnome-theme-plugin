@@ -5,7 +5,7 @@
   "nameKey": "dark.theme.name",
   "editorScheme": "/GnomeDark.xml",
   "colors": {
-    "MainToolbarHeader": "#000000",
+    "MainToolbarBackground": "#000000",
     "EditorColor": "#1E1E1E",
     "BorderColor": "Gray3",
     "Gray1": "#191917",
@@ -709,8 +709,9 @@
         "maxWidth": 350,
         "transparentHoverBackground": "#FFFFFF1A"
       },
-      "background": "MainToolbarHeader",
-      "separatorColor": "Gray4"
+      "background": "MainToolbarBackground",
+      "separatorColor": "Gray4",
+      "inactiveBackground": "MainToolbarBackground"
     },
 
     "Window.undecorated.border" : "1,1,1,1,#5A5D63",

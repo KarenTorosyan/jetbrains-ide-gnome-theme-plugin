@@ -6,6 +6,7 @@
   "nameKey": "light.theme.name",
   "editorScheme": "[Gnome] Light:SemiBold",
   "colors": {
+    "MainToolbarBackground": "Gray1",
     "Gray1": "#000000",
     "Gray2": "#27282E",
     "Gray3": "#383A42",
@@ -723,7 +724,8 @@
         "transparentHoverBackground": "#FFFFFF1A",
         "pressedBackground": "Gray3",
         "maxWidth": 350
-      }
+      },
+      "inactiveBackground": "MainToolbarBackground"
     },
 
     "Window.undecorated.border" : "1,1,1,1,#5A5D6B",

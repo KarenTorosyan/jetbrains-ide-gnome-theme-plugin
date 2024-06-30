@@ -5,7 +5,7 @@
   "nameKey": "black.theme.name",
   "editorScheme": "/GnomeBlack.xml",
   "colors": {
-    "MainToolbarHeader": "#000000",
+    "MainToolbarBackground": "#000000",
     "EditorColor": "#131314",
     "BorderColor": "#1e1f20",
     "Gray1": "#0f0f0f",
@@ -709,8 +709,9 @@
         "maxWidth": 350,
         "transparentHoverBackground": "#FFFFFF1A"
       },
-      "background": "MainToolbarHeader",
-      "separatorColor": "Gray4"
+      "background": "MainToolbarBackground",
+      "separatorColor": "Gray4",
+      "inactiveBackground": "MainToolbarBackground"
     },
 
     "Window.undecorated.border" : "1,1,1,1,#5A5D63",
