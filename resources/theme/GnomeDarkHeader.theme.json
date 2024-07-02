@@ -6,7 +6,7 @@
   "editorScheme": "/GnomeDark.xml",
   "colors": {
     "MainToolbarBackground": "Gray1",
-    "EditorHeader": "#191917",
+    "EditorHeader": "Gray3",
     "EditorColor": "#1E1E1E",
     "BorderColor": "Gray3",
     "Gray1": "#262626",

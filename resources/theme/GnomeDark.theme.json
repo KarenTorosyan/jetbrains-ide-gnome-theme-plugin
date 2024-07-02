@@ -5,6 +5,7 @@
   "nameKey": "dark.theme.name",
   "editorScheme": "/GnomeDark.xml",
   "colors": {
+    "EditorHeader": "Gray3",
     "MainToolbarBackground": "#000000",
     "EditorColor": "#1E1E1E",
     "BorderColor": "Gray3",
@@ -299,11 +300,11 @@
       "underlineHeight": 4,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.7,
-      "background": "Gray1",
+      "background": "EditorHeader",
       "hoverBackground": "#1E1F2200",
       "hoverInactiveBackground": "#1E1F2200",
       "inactiveColoredFileBackground": "#1E1F2280",
-      "underlinedTabBackground": "Gray1",
+      "underlinedTabBackground": "EditorHeader",
       "underTabsBorderColor":"Gray3"
     },
 
