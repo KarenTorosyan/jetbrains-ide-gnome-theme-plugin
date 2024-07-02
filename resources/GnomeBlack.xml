@@ -2,18 +2,17 @@
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.1.4.0.0</property>
-    <property name="originalScheme">[Gnome] Black</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="549159" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="ced0d6" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="131314" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1e1f20" />
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1e1f20" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="f0f0f" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="131314" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="f0f0f" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="131314" />
     <option name="DELETED_LINES_COLOR" value="868a91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
     <option name="DOCUMENTATION_COLOR" value="1e1f20" />
@@ -197,6 +196,7 @@
       <value>
         <option name="FOREGROUND" value="548af7" />
         <option name="EFFECT_COLOR" value="548af7" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">

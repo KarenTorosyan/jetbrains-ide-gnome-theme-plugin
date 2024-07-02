@@ -5,12 +5,12 @@
   "nameKey": "black.theme.name",
   "editorScheme": "/GnomeBlack.xml",
   "colors": {
-    "EditorHeader": "Gray2",
+    "EditorHeader": "Gray3",
     "MainToolbarBackground": "Gray2",
     "EditorColor": "#131314",
     "BorderColor": "#1e1f20",
-    "Gray1": "#0f0f0f",
-    "Gray2": "#0f0f0f",
+    "Gray1": "#131314",
+    "Gray2": "#131314",
     "Gray3": "#1e1f20",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
@@ -116,7 +116,7 @@
   "ui": {
 
     "*": {
-      "foreground": "Gray12",
+      "foreground": "Gray11",
       "background":  "Gray2",
       "borderColor": "BorderColor",
 
