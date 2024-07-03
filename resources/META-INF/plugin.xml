@@ -23,11 +23,12 @@
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes>
     <![CDATA[
-        <div><b>1.0</b> Initial release</div>
+        <div><b>1.0</b> Initial release </div>
         <div><b>1.1</b> Improved dark color scheme</div>
-        <div><b>1.2</b> Crated a black theme</div>
+        <div><b>1.2</b> Created a black theme </div>
         <div><b>1.3</b> Improved UI toolbar and dark theme terminal </div>
-        <div><b>1.4</b> Improved black and dark themes <div>
+        <div><b>1.4</b> Improved black and dark themes </div>
+        <div><b>1.5</b> Created a neon dark-yellow theme </div>
     ]]>
     </change-notes>
 
@@ -44,5 +45,7 @@
 
         <themeProvider id="gnome-dark-header" path="/theme/GnomeDarkHeader.theme.json"/>
         <themeProvider id="gnome-dark" path="/theme/GnomeDark.theme.json"/>
+
+        <themeProvider id="gnome-neon-dark-yellow" path="/theme/GnomeNeonDarkYellow.theme.json"/>
     </extensions>
 </idea-plugin>

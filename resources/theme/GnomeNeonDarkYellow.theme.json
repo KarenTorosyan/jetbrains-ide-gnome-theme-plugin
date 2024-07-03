@@ -1,17 +1,18 @@
 {
-  "name": "[Gnome] Black",
+  "name": "[Gnome] Neon Dark-Yellow",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "black.theme.name",
-  "editorScheme": "/GnomeBlack.xml",
+  "nameKey": "neon.dark-yellow",
+  "editorScheme": "/GnomeNeonDarkYellow.xml",
   "colors": {
     "EditorHeader": "Gray3",
-    "MainToolbarBackground": "#000000",
-    "EditorColor": "#181818",
-    "BorderColor": "#1e1f20",
-    "Gray1": "#181818",
-    "Gray2": "#181818",
-    "Gray3": "#1e1f20",
+    "EditorHeaderBorder": "#E0DDA0",
+    "MainToolbarBackground": "Gray2",
+    "EditorColor": "#1E1E1E",
+    "BorderColor": "Gray3",
+    "Gray1": "#191917",
+    "Gray2": "#252525",
+    "Gray3": "#333333",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
     "Gray6": "#5A5D63",
@@ -116,7 +117,7 @@
   "ui": {
 
     "*": {
-      "foreground": "Gray11",
+      "foreground": "Gray12",
       "background":  "Gray2",
       "borderColor": "BorderColor",
 
@@ -297,15 +298,16 @@
 
     "EditorTabs": {
       "underlineArc": 4,
-      "underlineHeight": 4,
+      "underlineHeight": 1,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.7,
+      "inactiveUnderlineColor": "EditorHeaderBorder",
       "background": "EditorHeader",
       "hoverBackground": "#1E1F2200",
       "hoverInactiveBackground": "#1E1F2200",
       "inactiveColoredFileBackground": "#1E1F2280",
       "underlinedTabBackground": "EditorHeader",
-      "underTabsBorderColor":"Gray3"
+      "underTabsBorderColor":"EditorHeaderBorder"
     },
 
     "Editor": {
@@ -370,8 +372,8 @@
     },
 
     "Menu": {
-      "separatorColor": "Gray3",
-      "borderColor": "Gray3"
+      "separatorColor": "Gray4",
+      "borderColor": "Gray4"
     },
 
     "NewUiOnboarding.Dialog.background": "Gray2",
@@ -417,7 +419,7 @@
 
     "Notification": {
       "background": "Gray3",
-      "borderColor": "BorderColor",
+      "borderColor": "Gray4",
       "foreground": "Gray13",
       "linkForeground": "Blue9",
       "iconHoverBackground": "#FFFFFF1A",
@@ -617,7 +619,7 @@
       "minimumSize": "49,28"
     },
 
-    "ToolBar.separatorColor": "Gray3",
+    "ToolBar.separatorColor": "Gray4",
 
     "ToolTip":{
       "background": "Gray3",
@@ -689,7 +691,7 @@
         }
       },
       "Stripe": {
-        "separatorColor": "Gray3",
+        "separatorColor": "Gray4",
         "DragAndDrop": {
           "separatorColor": "Blue8"
         }
