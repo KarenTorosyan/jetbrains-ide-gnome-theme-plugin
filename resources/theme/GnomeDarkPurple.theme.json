@@ -1,16 +1,20 @@
 {
-  "name": "[Gnome] Dark Header",
+  "name": "Gnome Dark Purple",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "dark.theme.name",
+  "nameKey": "gnome.dark-purple",
   "editorScheme": "/GnomeDark.xml",
   "colors": {
-    "MainToolbarBackground": "Gray1",
-    "EditorHeader": "Gray3",
-    "EditorColor": "#1E1E1E",
+
+    "EditorHeaderBackground": "Gray3",
+    "EditorHeaderBorderColor": "#bd11c4",
+    "EditorHeaderTabSelectedBorderColor": "Teal6",
+    "MainToolbarBackground": "Gray2",
+    "EditorBackground": "#1E1E1E",
     "BorderColor": "Gray3",
-    "Gray1": "#262626",
-    "Gray2": "#252524",
+
+    "Gray1": "#191917",
+    "Gray2": "#252525",
     "Gray3": "#333333",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
@@ -296,21 +300,23 @@
     },
 
     "EditorTabs": {
-      "underlineArc": 4,
-      "underlineHeight": 4,
+      "underlineArc": 0,
+      "underlineHeight": 1,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.7,
-      "background": "EditorHeader",
+      "background": "EditorHeaderBackground",
       "hoverBackground": "#1E1F2200",
       "hoverInactiveBackground": "#1E1F2200",
       "inactiveColoredFileBackground": "#1E1F2280",
-      "underlinedTabBackground": "EditorHeader",
-      "underTabsBorderColor":"Gray3"
+      "underlinedTabBackground": "EditorHeaderBackground",
+      "underTabsBorderColor": "EditorHeaderBorderColor",
+      "inactiveUnderlineColor": "EditorHeaderTabSelectedBorderColor",
+      "underlineColor": "EditorHeaderTabSelectedBorderColor"
     },
 
     "Editor": {
       "SearchField" : {
-        "background": "EditorColor"
+        "background": "EditorBackground"
       },
 
       "Toolbar" : {
@@ -710,7 +716,7 @@
         "maxWidth": 350,
         "transparentHoverBackground": "#FFFFFF1A"
       },
-      "background": "Gray1",
+      "background": "MainToolbarBackground",
       "separatorColor": "Gray4",
       "inactiveBackground": "MainToolbarBackground"
     },

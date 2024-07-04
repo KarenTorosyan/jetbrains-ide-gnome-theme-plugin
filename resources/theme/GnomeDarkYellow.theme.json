@@ -1,15 +1,18 @@
 {
-  "name": "[Gnome] Neon Dark-Yellow",
+  "name": "Gnome Dark Yellow",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "neon.dark-yellow",
-  "editorScheme": "/GnomeNeonDarkYellow.xml",
+  "nameKey": "gnome.dark-yellow",
+  "editorScheme": "/GnomeDark.xml",
   "colors": {
-    "EditorHeader": "Gray3",
-    "EditorHeaderBorder": "#E0DDA0",
+
+    "EditorHeaderBackground": "Gray3",
+    "EditorHeaderBorderColor": "#E0DDA0",
+    "EditorHeaderTabSelectedBorderColor": "Teal6",
     "MainToolbarBackground": "Gray2",
-    "EditorColor": "#1E1E1E",
+    "EditorBackground": "#1E1E1E",
     "BorderColor": "Gray3",
+
     "Gray1": "#191917",
     "Gray2": "#252525",
     "Gray3": "#333333",
@@ -297,22 +300,23 @@
     },
 
     "EditorTabs": {
-      "underlineArc": 4,
+      "underlineArc": 0,
       "underlineHeight": 1,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.7,
-      "inactiveUnderlineColor": "EditorHeaderBorder",
-      "background": "EditorHeader",
+      "background": "EditorHeaderBackground",
       "hoverBackground": "#1E1F2200",
       "hoverInactiveBackground": "#1E1F2200",
       "inactiveColoredFileBackground": "#1E1F2280",
-      "underlinedTabBackground": "EditorHeader",
-      "underTabsBorderColor":"EditorHeaderBorder"
+      "underlinedTabBackground": "EditorHeaderBackground",
+      "underTabsBorderColor": "EditorHeaderBorderColor",
+      "inactiveUnderlineColor": "EditorHeaderTabSelectedBorderColor",
+      "underlineColor": "EditorHeaderTabSelectedBorderColor"
     },
 
     "Editor": {
       "SearchField" : {
-        "background": "EditorColor"
+        "background": "EditorBackground"
       },
 
       "Toolbar" : {

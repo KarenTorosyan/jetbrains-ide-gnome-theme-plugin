@@ -1,4 +1,4 @@
-<scheme name="[Gnome] Dark" version="142" parent_scheme="Darcula">
+<scheme name="Gnome Dark" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.1.4.0.0</property>
@@ -168,7 +168,7 @@
     </option>
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="bcbec4" />
+        <option name="FOREGROUND" value="c0bfbc" />
       </value>
     </option>
     <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
@@ -196,7 +196,6 @@
       <value>
         <option name="FOREGROUND" value="548af7" />
         <option name="EFFECT_COLOR" value="548af7" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
@@ -267,6 +266,7 @@
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="e9c46a" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -297,12 +297,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="f4a261" />
+        <option name="FOREGROUND" value="e0dda0" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="f4a261" />
+        <option name="FOREGROUND" value="e0dda0" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
@@ -387,11 +387,13 @@
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="e9c46a" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="c0bfbc" />
+        <option name="FOREGROUND" value="e0dda0" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -550,6 +552,11 @@
       <value>
         <option name="FOREGROUND" value="c9cbd6" />
         <option name="BACKGROUND" value="43454a" />
+      </value>
+    </option>
+    <option name="JAVA_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="c0bfbc" />
       </value>
     </option>
     <option name="JS.EXPORTED.FUNCTION">

@@ -1,4 +1,4 @@
-<scheme name="[Gnome] Black" version="142" parent_scheme="Darcula">
+<scheme name="Gnome Dark Orange" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.1.4.0.0</property>
@@ -7,15 +7,15 @@
     <option name="ADDED_LINES_COLOR" value="549159" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="ced0d6" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1e1f20" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1e1f20" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="131314" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="333333" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="333333" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="252524" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="131314" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="252524" />
     <option name="DELETED_LINES_COLOR" value="868a91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
-    <option name="DOCUMENTATION_COLOR" value="1e1f20" />
+    <option name="DOCUMENTATION_COLOR" value="262626" />
     <option name="DOC_COMMENT_GUIDE" value="394d3f" />
     <option name="DOC_COMMENT_LINK" value="3887a1" />
     <option name="ERROR_HINT" value="402929" />
@@ -41,19 +41,19 @@
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="868a91" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="375fad" />
     <option name="INDENT_GUIDE" value="313438" />
-    <option name="INFORMATION_HINT" value="1e1f20" />
+    <option name="INFORMATION_HINT" value="262626" />
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="393b40" />
     <option name="LINE_NUMBERS_COLOR" value="666666" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a1a3ab" />
-    <option name="LOOKUP_COLOR" value="1e1f20" />
+    <option name="LOOKUP_COLOR" value="262626" />
     <option name="METHOD_SEPARATORS_COLOR" value="43454a" />
     <option name="MODIFIED_LINES_COLOR" value="375fad" />
     <option name="NOTIFICATION_BACKGROUND" value="25324d" />
     <option name="PROMOTION_PANE" value="25324d" />
     <option name="QUESTION_HINT" value="25324d" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="1e1f20" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="262626" />
     <option name="RIGHT_MARGIN_COLOR" value="393b40" />
     <option name="SELECTED_INDENT_GUIDE" value="666870" />
     <option name="SELECTION_BACKGROUND" value="113c69" />
@@ -85,10 +85,10 @@
         <option name="FOREGROUND" value="e9c46a" />
       </value>
     </option>
-    <option name="BLOCK_TERMINAL_BLUE">
+    <option name="BLOCK_TERMINAL_BLACK">
       <value>
-        <option name="FOREGROUND" value="5594fa" />
-        <option name="BACKGROUND" value="1e1f20" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="1e1e1e" />
       </value>
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
@@ -196,7 +196,6 @@
       <value>
         <option name="FOREGROUND" value="548af7" />
         <option name="EFFECT_COLOR" value="548af7" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
@@ -267,6 +266,7 @@
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="e9c46a" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -387,11 +387,13 @@
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="e9c46a" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="c0bfbc" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -847,7 +849,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="c0bfbc" />
-        <option name="BACKGROUND" value="131314" />
+        <option name="BACKGROUND" value="1e1e1e" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -901,9 +903,6 @@
         <option name="EFFECT_COLOR" value="6a707a" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
-    </option>
-    <option name="VELOCITY_SCRIPTING_BACKGROUND">
-      <value />
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
