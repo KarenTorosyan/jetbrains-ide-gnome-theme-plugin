@@ -34,7 +34,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="gnome-light" path="/theme/GnomeLightPink.theme.json"/>
         <themeProvider id="gnome-dark-orange" path="/theme/GnomeDarkOrange.theme.json"/>
-        <themeProvider id="gnome-dark-pink" path="/theme/GnomeDarkPink.theme.json"/>
+        <themeProvider id="gnome-dark-purple" path="/theme/GnomeDarkPurple.theme.json"/>
         <themeProvider id="gnome-dark-yellow" path="/theme/GnomeDarkYellow.theme.json"/>
         <themeProvider id="gnome-dark-blue" path="/theme/GnomeDarkBlue.theme.json"/>
     </extensions>
