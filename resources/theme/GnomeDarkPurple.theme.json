@@ -9,7 +9,6 @@
     "EditorHeaderBackground": "Gray3",
     "EditorHeaderBorderColor": "#bd11c4",
     "EditorHeaderTabSelectedBorderColor": "Teal6",
-    "MainToolbarBackground": "Gray2",
     "EditorBackground": "#1E1E1E",
     "BorderColor": "Gray3",
 
@@ -716,9 +715,9 @@
         "maxWidth": 350,
         "transparentHoverBackground": "#FFFFFF1A"
       },
-      "background": "MainToolbarBackground",
+      "background": "Gray2",
       "separatorColor": "Gray4",
-      "inactiveBackground": "MainToolbarBackground"
+      "inactiveBackground": "Gray2"
     },
 
     "Window.undecorated.border" : "1,1,1,1,#5A5D63",

@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>2.0</version>
+    <version>2.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -24,6 +24,7 @@
     <change-notes>
     <![CDATA[
         <div><b>2.0</b> New release </div>
+        <div><b>2.1</b> Created a dark and light Flat UI </div>
     ]]>
     </change-notes>
 
@@ -33,9 +34,15 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="gnome-light" path="/theme/GnomeLightPink.theme.json"/>
+        <themeProvider id="gnome-light-flat" path="/theme/GnomeLightFlat.theme.json"/>
+        <themeProvider id="gnome-light-flat-with-black-toolbar" path="/theme/GnomeLightFlatBlackToolbar.theme.json"/>
+
         <themeProvider id="gnome-dark-orange" path="/theme/GnomeDarkOrange.theme.json"/>
         <themeProvider id="gnome-dark-purple" path="/theme/GnomeDarkPurple.theme.json"/>
         <themeProvider id="gnome-dark-yellow" path="/theme/GnomeDarkYellow.theme.json"/>
+        <themeProvider id="gnome-dark-flat" path="/theme/GnomeDarkFlat.theme.json"/>
+        <themeProvider id="gnome-dark-flat-with-black-toolbar" path="/theme/GnomeDarkFlatBlackToolbar.theme.json"/>
+
         <themeProvider id="gnome-dark-blue" path="/theme/GnomeDarkBlue.theme.json"/>
     </extensions>
 </idea-plugin>

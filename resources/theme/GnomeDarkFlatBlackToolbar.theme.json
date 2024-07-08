@@ -1,14 +1,14 @@
 {
-  "name": "Gnome Dark Blue",
+  "name": "Gnome Dark Flat with Black Toolbar",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "gnome.dark-blue",
+  "nameKey": "gnome.dark-flat",
   "editorScheme": "/GnomeDark.xml",
   "colors": {
 
-    "EditorHeaderBackground": "Gray3",
-    "EditorHeaderBorderColor": "#00e9ff",
-    "EditorHeaderTabSelectedBorderColor": "#E0DDA0",
+    "EditorHeaderBackground": "EditorBackground",
+    "EditorHeaderBorderColor": "Gray3",
+    "EditorHeaderTabSelectedBorderColor": "Teal6",
     "EditorBackground": "#1E1E1E",
     "BorderColor": "Gray3",
 
@@ -300,7 +300,7 @@
 
     "EditorTabs": {
       "underlineArc": 0,
-      "underlineHeight": 1,
+      "underlineHeight": 2,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.7,
       "background": "EditorHeaderBackground",
@@ -715,9 +715,9 @@
         "maxWidth": 350,
         "transparentHoverBackground": "#FFFFFF1A"
       },
-      "background": "Gray2",
+      "background": "#000000",
       "separatorColor": "Gray4",
-      "inactiveBackground": "Gray2"
+      "inactiveBackground": "#000000"
     },
 
     "Window.undecorated.border" : "1,1,1,1,#5A5D63",
