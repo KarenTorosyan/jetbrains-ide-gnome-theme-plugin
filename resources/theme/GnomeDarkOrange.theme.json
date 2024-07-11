@@ -3,7 +3,7 @@
   "dark": true,
   "author": "Karen Torosyan",
   "nameKey": "gnome.dark-orange",
-  "editorScheme": "/GnomeDarkOld.xml",
+  "editorScheme": "/GnomeDark.xml",
   "colors": {
 
     "EditorHeaderBackground": "Gray3",
