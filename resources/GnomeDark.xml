@@ -307,13 +307,18 @@
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="7ac3c0" />
+        <option name="FOREGROUND" value="70c1b3" />
         <option name="EFFECT_COLOR" value="6b6c73" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
-    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_INSTANCE_FIELD">
+      <value>
+        <option name="FOREGROUND" value="e6c48a" />
+        <option name="BACKGROUND" value="1e1e1e" />
+      </value>
+    </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="7d8ac7" />
@@ -321,7 +326,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="7ac3C0" />
+        <option name="FOREGROUND" value="70c1b3" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -334,7 +339,6 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="c0bfbc" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -349,7 +353,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="7ac3C0" />
+        <option name="FOREGROUND" value="70c1b3" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -395,7 +399,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="7ac3C0" />
+        <option name="FOREGROUND" value="70c1b3" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -595,7 +599,7 @@
     </option>
     <option name="JSON.STRING">
       <value>
-        <option name="FOREGROUND" value="7ac3C0" />
+        <option name="FOREGROUND" value="7ac3c0" />
       </value>
     </option>
     <option name="JSP_DIRECTIVE_NAME">
