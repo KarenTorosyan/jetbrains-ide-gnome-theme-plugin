@@ -1,16 +1,15 @@
 {
-  "name": "Gnome Light Flat with Black Toolbar",
+  "name": "Gnome Light Flat",
   "dark": false,
   "author": "Karen Torosyan",
   "parentTheme": "IntelliJ",
-  "nameKey": "gnome.light-flat",
-  "editorScheme": "/GnomeLight.xml",
+  "nameKey": "light-flat",
+  "editorScheme": "/scheme/GnomeLight.xml",
   "colors": {
 
     "EditorHeaderBackground": "Gray14",
     "EditorHeaderBorderColor": "Gray12",
     "EditorHeaderTabSelectedBorderColor": "Teal6",
-    "MainToolbarBackground": "#000000",
     "EditorBackground": "Gray14",
     "BorderColor": "Gray12",
 
@@ -389,8 +388,8 @@
 
     "MainMenu": {
       "background": "Gray13",
-      "foreground": "Gray14",
-      "selectionForeground": "Gray14",
+      "foreground": "Gray1",
+      "selectionForeground": "Gray1",
       "selectionBackground": "Blue11",
       "transparentSelectionBackground": "#0000001A"
     },
@@ -704,9 +703,9 @@
     },
 
     "MainToolbar": {
-      "background": "#000000",
-      "foreground": "Gray14",
-      "inactiveBackground": "#000000",
+      "background": "Gray13",
+      "foreground": "Gray1",
+      "inactiveBackground": "Gray12",
       "separatorColor": "Gray11",
       "Icon": {
         "background": "Gray13",
@@ -719,7 +718,8 @@
         "hoverBackground": "Gray12",
         "transparentHoverBackground": "#0000000D",
         "pressedBackground": "Gray11"
-      }
+      },
+      "inactiveBackground": "Gray13"
     },
 
     "Window.undecorated.border" : "1,1,1,1,#5A5D6B",
@@ -816,73 +816,71 @@
       "PackageTagSelected.foreground": "Gray14"
     },
 
-
     "RecentProject": {
       "Color1": {
-        "MainToolbarGradientStart": "#654B40",
+        "MainToolbarGradientStart": "#F5D4C1",
         "Avatar": {
           "Start": "#E08855",
           "End": "#E9806F"
         }
       },
       "Color2": {
-        "MainToolbarGradientStart": "#534C33",
+        "MainToolbarGradientStart": "#EEE2BD",
         "Avatar": {
           "Start": "#B08B14",
           "End": "#BB7F19"
         }
       },
       "Color3": {
-        "MainToolbarGradientStart": "#455038",
+        "MainToolbarGradientStart": "#DBE7C9",
         "Avatar": {
           "Start": "#A1A359",
           "End": "#87AA59"
         }
       },
       "Color4": {
-        "MainToolbarGradientStart": "#31515F",
+        "MainToolbarGradientStart": "#CADFEA",
         "Avatar": {
           "Start": "#3B92B8",
           "End": "#6183EC"
         }
       },
       "Color5": {
-        "MainToolbarGradientStart": "#344C7D",
+        "MainToolbarGradientStart": "#DBD8EF",
         "Avatar": {
           "Start": "#3574F0",
           "End": "#7A64F0"
         }
       },
       "Color6": {
-        "MainToolbarGradientStart": "#5D354A",
+        "MainToolbarGradientStart": "#EED7F5",
         "Avatar": {
           "Start": "#C84D8F",
           "End": "#A956CF"
         }
       },
       "Color7": {
-        "MainToolbarGradientStart": "#4F3E65",
+        "MainToolbarGradientStart": "#DFCCF4",
         "Avatar": {
           "Start": "#955AE0",
           "End": "#A84DE0"
         }
       },
       "Color8": {
-        "MainToolbarGradientStart": "#1D4744",
+        "MainToolbarGradientStart": "#BEE4E1",
         "Avatar": {
           "Start": "#24A394",
           "End": "#279CCD"
         }
       },
       "Color9": {
-        "MainToolbarGradientStart": "#3E5540",
+        "MainToolbarGradientStart": "#CCEBD1",
         "Avatar": {
           "Start": "#5FAD65",
           "End": "#3D968B"
         }
       }
     },
-
 
     "UnattendedHostStatus": {
       "warningBackground": "Yellow5",
@@ -946,7 +944,7 @@
     },
 
     "RunWidget" : {
-      "foreground": "Gray14",
+      "foreground": "Gray1",
       "runningBackground": "Green5",
       "stopBackground": "Red5",
       "hoverBackground": "#00000022",

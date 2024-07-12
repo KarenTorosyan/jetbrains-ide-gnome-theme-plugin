@@ -1,20 +1,20 @@
 {
-  "name": "Gnome Dark Flat with Black Toolbar",
+  "name": "Gnome Darker Blue",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "gnome.dark-flat",
-  "editorScheme": "/GnomeDark.xml",
+  "nameKey": "darker-blue",
+  "editorScheme": "/scheme/GnomeDarker.xml",
   "colors": {
 
-    "EditorHeaderBackground": "EditorBackground",
-    "EditorHeaderBorderColor": "Gray3",
-    "EditorHeaderTabSelectedBorderColor": "Teal6",
-    "EditorBackground": "#1E1E1E",
+    "EditorHeaderBackground": "Gray3",
+    "EditorHeaderBorderColor": "#00e9ff",
+    "EditorHeaderTabSelectedBorderColor": "#E0DDA0",
+    "EditorBackground": "#181818",
     "BorderColor": "Gray3",
 
-    "Gray1": "#191917",
-    "Gray2": "#252525",
-    "Gray3": "#333333",
+    "Gray1": "#181818",
+    "Gray2": "#181818",
+    "Gray3": "#282828",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
     "Gray6": "#5A5D63",
@@ -300,7 +300,7 @@
 
     "EditorTabs": {
       "underlineArc": 0,
-      "underlineHeight": 2,
+      "underlineHeight": 1,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.7,
       "background": "EditorHeaderBackground",
@@ -715,9 +715,9 @@
         "maxWidth": 350,
         "transparentHoverBackground": "#FFFFFF1A"
       },
-      "background": "#000000",
+      "background": "Gray2",
       "separatorColor": "Gray4",
-      "inactiveBackground": "#000000"
+      "inactiveBackground": "Gray2"
     },
 
     "Window.undecorated.border" : "1,1,1,1,#5A5D63",

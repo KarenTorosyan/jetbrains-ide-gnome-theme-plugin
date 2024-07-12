@@ -25,7 +25,7 @@
     <![CDATA[
         <div><b>2.0</b> New release </div>
         <div><b>2.1</b> Created a dark and light Flat UI </div>
-        <div><b>2.2</b> Improved dark color scheme </div>
+        <div><b>2.2</b> Created darker and material UI variants with color schemes </div>
     ]]>
     </change-notes>
 
@@ -34,16 +34,53 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="gnome-light" path="/theme/GnomeLightPink.theme.json"/>
-        <themeProvider id="gnome-light-flat" path="/theme/GnomeLightFlat.theme.json"/>
-        <themeProvider id="gnome-light-flat-with-black-toolbar" path="/theme/GnomeLightFlatBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-light-flat" path="/theme/light/GnomeLightFlat.theme.json"/>
+        <themeProvider id="gnome-light-flat-material" path="/theme/light/GnomeLightFlatMaterial.theme.json"/>
+        <themeProvider id="gnome-light-flat-with-black-toolbar" path="/theme/light/GnomeLightFlatBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-light-flat-material-with-black-toolbar" path="/theme/light/GnomeLightFlatMaterialBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-light-pink" path="/theme/light/GnomeLightPink.theme.json"/>
+        <themeProvider id="gnome-light-pink-material" path="/theme/light/GnomeLightPinkMaterial.theme.json"/>
 
-        <themeProvider id="gnome-dark-orange" path="/theme/GnomeDarkOrange.theme.json"/>
-        <themeProvider id="gnome-dark-purple" path="/theme/GnomeDarkPurple.theme.json"/>
-        <themeProvider id="gnome-dark-yellow" path="/theme/GnomeDarkYellow.theme.json"/>
-        <themeProvider id="gnome-dark-flat" path="/theme/GnomeDarkFlat.theme.json"/>
-        <themeProvider id="gnome-dark-flat-with-black-toolbar" path="/theme/GnomeDarkFlatBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-origin-dark-flat" path="/theme/origin/dark/GnomeDarkFlat.theme.json"/>
+        <themeProvider id="gnome-origin-dark-flat-material" path="/theme/origin/dark/GnomeDarkFlatMaterial.theme.json"/>
+        <themeProvider id="gnome-origin-dark-flat-with-black-toolbar" path="/theme/origin/dark/GnomeDarkFlatBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-origin-dark-flat-material-with-black-toolbar" path="/theme/origin/dark/GnomeDarkFlatMaterialBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-origin-dark-blue" path="/theme/origin/dark/GnomeDarkBlue.theme.json"/>
+        <themeProvider id="gnome-origin-dark-blue-material" path="/theme/origin/dark/GnomeDarkBlueMaterial.theme.json"/>
 
-        <themeProvider id="gnome-dark-blue" path="/theme/GnomeDarkBlue.theme.json"/>
+        <themeProvider id="gnome-origin-darker-flat" path="/theme/origin/darker/GnomeDarkerFlat.theme.json"/>
+        <themeProvider id="gnome-origin-darker-flat-material" path="/theme/origin/darker/GnomeDarkerFlatMaterial.theme.json"/>
+        <themeProvider id="gnome-origin-darker-flat-with-black-toolbar" path="/theme/origin/darker/GnomeDarkerFlatBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-origin-darker-flat-material-with-black-toolbar" path="/theme/origin/darker/GnomeDarkerFlatMaterialBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-origin-darker-blue" path="/theme/origin/darker/GnomeDarkerBlue.theme.json"/>
+        <themeProvider id="gnome-origin-darker-blue-material" path="/theme/origin/darker/GnomeDarkerBlueMaterial.theme.json"/>
+
+        <themeProvider id="gnome-dark-flat" path="/theme/dark/GnomeDarkFlat.theme.json"/>
+        <themeProvider id="gnome-dark-flat-material" path="/theme/dark/GnomeDarkFlatMaterial.theme.json"/>
+        <themeProvider id="gnome-dark-flat-with-black-toolbar" path="/theme/dark/GnomeDarkFlatBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-dark-flat-material-with-black-toolbar" path="/theme/dark/GnomeDarkFlatMaterialBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-dark-orange" path="/theme/dark/GnomeDarkOrange.theme.json"/>
+        <themeProvider id="gnome-dark-orange-material" path="/theme/dark/GnomeDarkOrangeMaterial.theme.json"/>
+        <themeProvider id="gnome-dark-purple" path="/theme/dark/GnomeDarkPurple.theme.json"/>
+        <themeProvider id="gnome-dark-purple-material" path="/theme/dark/GnomeDarkPurpleMaterial.theme.json"/>
+        <themeProvider id="gnome-dark-yellow" path="/theme/dark/GnomeDarkYellow.theme.json"/>
+        <themeProvider id="gnome-dark-yellow-material" path="/theme/dark/GnomeDarkYellowMaterial.theme.json"/>
+        <themeProvider id="gnome-dark-blue" path="/theme/dark/GnomeDarkBlue.theme.json"/>
+        <themeProvider id="gnome-dark-blue-material" path="/theme/dark/GnomeDarkBlueMaterial.theme.json"/>
+
+        <themeProvider id="gnome-darker-flat" path="/theme/darker/GnomeDarkerFlat.theme.json"/>
+        <themeProvider id="gnome-darker-flat-material" path="/theme/darker/GnomeDarkerFlatMaterial.theme.json"/>
+        <themeProvider id="gnome-darker-flat-with-black-toolbar" path="/theme/darker/GnomeDarkerFlatBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-darker-flat-material-with-black-toolbar" path="/theme/darker/GnomeDarkerFlatMaterialBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-darker-orange" path="/theme/darker/GnomeDarkerOrange.theme.json"/>
+        <themeProvider id="gnome-darker-orange-material" path="/theme/darker/GnomeDarkerOrangeMaterial.theme.json"/>
+        <themeProvider id="gnome-darker-purple" path="/theme/darker/GnomeDarkerPurple.theme.json"/>
+        <themeProvider id="gnome-darker-purple-material" path="/theme/darker/GnomeDarkerPurpleMaterial.theme.json"/>
+        <themeProvider id="gnome-darker-yellow" path="/theme/darker/GnomeDarkerYellow.theme.json"/>
+        <themeProvider id="gnome-darker-yellow-material" path="/theme/darker/GnomeDarkerYellowMaterial.theme.json"/>
+        <themeProvider id="gnome-darker-blue" path="/theme/darker/GnomeDarkerBlue.theme.json"/>
+
+        <!-- default -->
+        <themeProvider id="gnome-darker-blue-material" path="/theme/darker/GnomeDarkerBlueMaterial.theme.json"/>
     </extensions>
 </idea-plugin>

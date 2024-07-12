@@ -1,17 +1,17 @@
 {
-  "name": "Gnome Light Flat",
+  "name": "Gnome Light Pink Material",
   "dark": false,
   "author": "Karen Torosyan",
   "parentTheme": "IntelliJ",
-  "nameKey": "gnome.light-flat",
-  "editorScheme": "/GnomeLight.xml",
+  "nameKey": "gnome.light-pink-material",
+  "editorScheme": "/scheme/GnomeLight.xml",
   "colors": {
 
     "EditorHeaderBackground": "Gray14",
-    "EditorHeaderBorderColor": "Gray12",
+    "EditorHeaderBorderColor": "#fb05de",
     "EditorHeaderTabSelectedBorderColor": "Teal6",
     "EditorBackground": "Gray14",
-    "BorderColor": "Gray12",
+    "BorderColor": "Gray13",
 
     "Gray1": "#000000",
     "Gray2": "#27282E",
@@ -288,7 +288,7 @@
 
     "EditorTabs": {
       "underlineArc": 0,
-      "underlineHeight": 2,
+      "underlineHeight": 1,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.9,
       "background": "EditorHeaderBackground",

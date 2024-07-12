@@ -1,18 +1,18 @@
 {
-  "name": "Gnome Dark Blue",
+  "name": "Gnome Dark Orange",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "gnome.dark-blue",
-  "editorScheme": "/GnomeDark.xml",
+  "nameKey": "dark-orange",
+  "editorScheme": "/scheme/GnomeDark.xml",
   "colors": {
 
     "EditorHeaderBackground": "Gray3",
-    "EditorHeaderBorderColor": "#00e9ff",
-    "EditorHeaderTabSelectedBorderColor": "#E0DDA0",
+    "EditorHeaderBorderColor": "#ffc553",
+    "EditorHeaderTabSelectedBorderColor": "Teal9",
     "EditorBackground": "#1E1E1E",
     "BorderColor": "Gray3",
 
-    "Gray1": "#191917",
+    "Gray1": "#252525",
     "Gray2": "#252525",
     "Gray3": "#333333",
     "Gray4": "#43454A",
