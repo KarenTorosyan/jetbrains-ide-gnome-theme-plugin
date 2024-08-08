@@ -9,7 +9,10 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="292929" />
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="292929" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="181818" />
+    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="16a04d" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="292929" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="121212" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="292929" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
@@ -160,7 +163,7 @@
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="6aab73" />
+        <option name="FOREGROUND" value="16A04D" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">

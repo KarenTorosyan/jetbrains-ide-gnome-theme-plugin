@@ -183,6 +183,7 @@
       "focusedBorderColor": "Gray2",
       "minimumSize": "72,28",
       "shadowColor": "#00000000",
+      "loadingForeground": "Gray8",
 
       "default": {
         "foreground": "Gray14",
@@ -191,7 +192,8 @@
         "startBorderColor": "Blue6",
         "endBorderColor": "Blue6",
         "focusedBorderColor": "Gray1",
-        "shadowColor": "#00000000"
+        "shadowColor": "#00000000",
+        "loadingForeground": "Gray11"
       },
 
       "Split": {
@@ -575,6 +577,13 @@
       "selectedPressedBackground": "Blue4"
     },
 
+    "Slider": {
+      "buttonColor": "Gray9",
+      "buttonBorderColor": "Gray2",
+      "tickColor": "Gray8",
+      "trackColor": "Gray6"
+    },
+
     "SpeedSearch": {
       "background": "Gray1",
       "borderColor": "Gray3",
@@ -741,13 +750,21 @@
     },
 
     "VersionControl": {
-      "Log.Commit": {
-        "currentBranchBackground": "#1c2433",
-        "unmatchedForeground": "Gray7",
-        "hoveredBackground": "#FFFFFFED",
-        "Reference.foreground": "Gray7"
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "Gray3",
+          "selectionBackground": "Gray4",
+          "selectionInactiveBackground": "Gray4",
+          "unmatchedForeground": "Gray7",
+          "hoveredBackground": "#FFFFFFED",
+          "Reference.foreground": "Gray7"
+        },
+        "Graph": {
+          "saturation": 0.6,
+          "brightness": 0.6
+        }
       },
-      "FileHistory.Commit.selectedBranchBackground": "#1c2433",
+      "FileHistory.Commit.selectedBranchBackground": "Gray3",
       "MarkerPopup": {
         "borderColor": "Gray4"
       },
@@ -757,7 +774,8 @@
         "otherIconColor": "Gray8",
         "remoteBranchIconColor": "Purple9",
         "tagIconColor": "Gray8"
-      }
+      },
+      "Merge.Status.NoConflicts.foreground": "Green6"
     },
 
     "EditorPane.splitBorder": "Gray3",
@@ -852,6 +870,20 @@
           "Start": "#5FAD65",
           "End": "#3D968B"
         }
+      }
+    },
+
+    "LicenseDialog": {
+      "termsAndConditionsForeground": "Gray7",
+      "waitingLabelForeground": "Gray7",
+      "separatorColor": "Gray3",
+      "LicenseList": {
+        "licenseDetailsForeground": "Gray9",
+        "licenseIdForeground": "Gray7",
+        "separatorColor": "Gray4"
+      },
+      "LicenseServer": {
+        "separatorColor": "Gray4"
       }
     },
 
