@@ -1,17 +1,17 @@
 {
-  "name": "Gnome R1 Light Flat",
+  "name": "GNOME Light",
   "dark": false,
   "author": "Karen Torosyan",
   "parentTheme": "IntelliJ",
-  "nameKey": "r1-light-flat",
-  "editorScheme": "/scheme/r1/GnomeLight.xml",
+  "nameKey": "gnome-light",
+  "editorScheme": "/scheme/GnomeLight.xml",
   "colors": {
 
     "EditorHeaderBackground": "Gray14",
-    "EditorHeaderBorderColor": "Gray12",
-    "EditorHeaderTabSelectedBorderColor": "Teal6",
+    "EditorHeaderUnderTabsBorderColor": "Gray12",
+    "EditorHeaderTabSelectedBorderColor": "#3584e4",
     "EditorBackground": "Gray14",
-    "BorderColor": "Gray12",
+    "BorderColor": "#EBECF0",
     "SearchToolbarBorderColor": "Gray12",
 
     "Gray1": "#000000",
@@ -23,9 +23,9 @@
     "Gray7": "#818594",
     "Gray8": "#A8ADBD",
     "Gray9": "#C9CCD6",
-    "Gray10": "#D3D5DB",
-    "Gray11": "#DFE1E5",
-    "Gray12": "#C9CCD6",
+    "Gray10": "#c3c6d1",
+    "Gray11": "#cbced8",
+    "Gray12": "#DFE1E5",
     "Gray13": "#f2f2f2",
     "Gray14": "#FFFFFF",
     "windowsPopupBorder": "#B9BDC9",
@@ -126,7 +126,7 @@
 
       "selectionBackground": "#cce0f8",
       "lightSelectionBackground": "#cce0f8",
-      "selectionInactiveBackground": "Gray11",
+      "selectionInactiveBackground": "Gray12",
       "selectionForeground": "Gray1",
       "selectionInactiveForeground": "Gray1",
 
@@ -137,7 +137,7 @@
       "acceleratorSelectionForeground": "Gray7",
       "shortcutForeground": "Gray7",
 
-      "underlineColor": "Teal4",
+      "underlineColor": "#3584e4",
       "inactiveUnderlineColor": "Gray8",
 
       "focusColor": "Blue4",
@@ -290,8 +290,8 @@
     "DefaultTabs.hoverBackground": "Gray12",
 
     "EditorTabs": {
-      "underlineArc": 0,
-      "underlineHeight": 2,
+      "underlineArc": 6,
+      "underlineHeight": 3,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.9,
       "background": "EditorHeaderBackground",
@@ -299,7 +299,7 @@
       "hoverInactiveBackground": "#FFFFFF00",
       "inactiveColoredFileBackground": "#FFFFFF80",
       "underlinedTabBackground": "EditorHeaderBackground",
-      "underTabsBorderColor": "EditorHeaderBorderColor",
+      "underTabsBorderColor": "EditorHeaderUnderTabsBorderColor",
       "inactiveUnderlineColor": "EditorHeaderTabSelectedBorderColor"
     },
 
@@ -399,7 +399,7 @@
 
     "MemoryIndicator": {
       "allocatedBackground": "Gray11",
-      "usedBackground": "#B7CEFA75"
+      "usedBackground": "#6fd598"
     },
 
     "NewClass": {
@@ -691,7 +691,7 @@
       "Button": {
         "foreground": "Gray5",
         "selectedForeground": "Gray14",
-        "selectedBackground": "Blue4",
+        "selectedBackground": "#3584e4",
         "hoverBackground": "Gray12",
         "DragAndDrop" : {
           "stripeBackground" : "Gray13",
@@ -757,7 +757,7 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "#EDF3FF",
+          "currentBranchBackground": "#c4d8d8",
           "unmatchedForeground": "Gray7",
           "hoveredBackground": "#E9EAEC",
           "Reference.foreground": "Gray6"
@@ -767,7 +767,7 @@
           "brightness": 0.7
         }
       },
-      "FileHistory.Commit.selectedBranchBackground": "#EDF3FF",
+      "FileHistory.Commit.selectedBranchBackground": "#blue",
       "MarkerPopup": {
         "borderColor": "Gray11"
       },

@@ -1,23 +1,23 @@
 {
-  "name": "Gnome R1 Darker Blue",
+  "name": "GNOME Darker Blue",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "r1-darker-blue",
-  "editorScheme": "/scheme/r1/GnomeDarker.xml",
+  "nameKey": "gnome-darker-blue",
+  "editorScheme": "/scheme/GnomeDarker.xml",
   "colors": {
 
-    "EditorHeaderBackground": "Gray2",
-    "EditorHeaderBorderColor": "#00e9ff",
+    "EditorHeaderBackground": "#1B1B1B",
+    "EditorHeaderUnderTabsBorderColor": "#00e9ff",
     "EditorHeaderTabSelectedBorderColor": "#E0DDA0",
-    "EditorBackground": "#181818",
-    "BorderColor": "#121212",
-    "SearchToolbarBorderColor": "#121212",
+    "EditorBackground": "#1E1E1E",
+    "BorderColor": "#1B1B1B",
+    "SearchToolbarBorderColor": "#1E1E1E",
 
-    "Gray1": "#181818",
-    "Gray2": "#181818",
-    "Gray3": "#282828",
-    "Gray4": "#383838",
-    "Gray5": "#383838",
+    "Gray1": "#1B1B1B",
+    "Gray2": "#1B1B1B",
+    "Gray3": "#323333",
+    "Gray4": "#414444",
+    "Gray5": "#393B40",
     "Gray6": "#5A5D63",
     "Gray7": "#6F737A",
     "Gray8": "#868A91",
@@ -141,7 +141,7 @@
       "acceleratorForeground": "Gray7",
       "shortcutForeground": "Gray7",
 
-      "underlineColor": "Teal6",
+      "underlineColor": "#3584e4",
       "inactiveUnderlineColor": "Gray6",
 
       "focusColor": "Blue6",
@@ -153,10 +153,10 @@
     },
 
     "ActionButton": {
-      "hoverBackground": "#FFFFFF16",
-      "hoverBorderColor": "#FFFFFF00",
-      "pressedBackground": "#FFFFFF26",
-      "pressedBorderColor": "#FFFFFF00",
+      "hoverBackground": "#323535",
+      "hoverBorderColor": "#323535",
+      "pressedBackground": "#323535",
+      "pressedBorderColor": "#323535",
       "focusedBorderColor": "Blue6",
       "hoverSeparatorColor": "Gray6"
     },
@@ -311,7 +311,8 @@
       "hoverInactiveBackground": "#1E1F2200",
       "inactiveColoredFileBackground": "#1E1F2280",
       "underlinedTabBackground": "EditorHeaderBackground",
-      "underTabsBorderColor": "EditorHeaderBorderColor",
+      "underTabsBorderColor": "EditorHeaderUnderTabsBorderColor",
+      "borderColor": "EditorHeaderBackground",
       "inactiveUnderlineColor": "EditorHeaderTabSelectedBorderColor",
       "underlineColor": "EditorHeaderTabSelectedBorderColor"
     },
@@ -373,12 +374,12 @@
     },
 
     "MemoryIndicator": {
-      "allocatedBackground": "Gray1",
-      "usedBackground": "#35538F80"
+      "allocatedBackground": "Gray3",
+      "usedBackground": "#17723e"
     },
 
     "Menu": {
-      "separatorColor": "Gray4",
+      "separatorColor": "Gray2",
       "borderColor": "Gray4"
     },
 
@@ -595,6 +596,8 @@
     },
 
     "StatusBar": {
+      "background": "#1B1B1B",
+      "borderColor": "#1B1B1B",
       "Widget": {
         "foreground": "Gray9",
         "hoverForeground": "Gray12",
@@ -695,7 +698,7 @@
       "Button": {
         "foreground": "Gray9",
         "selectedForeground": "Gray14",
-        "selectedBackground": "Blue6",
+        "selectedBackground": "#323535",
         "DragAndDrop" : {
           "stripeBackground" : "Gray2",
           "buttonDropBackground": "#35538F99",
@@ -725,9 +728,9 @@
         "maxWidth": 350,
         "transparentHoverBackground": "#FFFFFF1A"
       },
-      "background": "Gray2",
+      "background": "EditorHeaderBackground",
       "separatorColor": "Gray4",
-      "inactiveBackground": "Gray2"
+      "inactiveBackground": "EditorHeaderBackground"
     },
 
     "Window.undecorated.border" : "1,1,1,1,#5A5D63",
@@ -752,9 +755,9 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "Gray3",
-          "selectionBackground": "Gray4",
-          "selectionInactiveBackground": "Gray4",
+          "currentBranchBackground": "#252525",
+          "selectionBackground": "Gray3",
+          "selectionInactiveBackground": "Gray3",
           "unmatchedForeground": "Gray7",
           "hoveredBackground": "#FFFFFFED",
           "Reference.foreground": "Gray7"
@@ -764,7 +767,7 @@
           "brightness": 0.6
         }
       },
-      "FileHistory.Commit.selectedBranchBackground": "Gray3",
+      "FileHistory.Commit.selectedBranchBackground": "#252525",
       "MarkerPopup": {
         "borderColor": "Gray4"
       },

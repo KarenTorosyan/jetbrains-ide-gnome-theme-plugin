@@ -2,11 +2,11 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>2.2.3</version>
+    <version>2.3.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Gnome Theme</name>
+    <name>GNOME Theme</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
@@ -27,7 +27,7 @@
         <div><b>2.1</b> Created a dark and light Flat UI </div>
         <div><b>2.2.1</b> Created new color schemes and darker UI </div>
         <div><b>2.2.2</b> Updated compatibility version <div>
-        <div><b>2.2.3</b> UI and Scheme improvements </div>
+        <div><b>2.3.1</b> UI and Scheme improvements </div>
     ]]>
     </change-notes>
 
@@ -37,34 +37,26 @@
 
     <extensions defaultExtensionNs="com.intellij">
 
-        <!-- R1 -->
-        <themeProvider id="gnome-r1-light-flat" path="/theme/r1/light/GnomeLightFlat.theme.json"/>
-        <themeProvider id="gnome-r1-light-flat-with-black-toolbar" path="/theme/r1/light/GnomeLightFlatBlackToolbar.theme.json"/>
-        <themeProvider id="gnome-r1-light-pink" path="/theme/r1/light/GnomeLightPink.theme.json"/>
+        <!-- light -->
+        <themeProvider id="gnome-light" path="/theme/light/GnomeLight.theme.json"/>
 
-        <themeProvider id="gnome-r1-dark-flat-with-black-toolbar" path="/theme/r1/dark/GnomeDarkFlatBlackToolbar.theme.json"/>
-        <themeProvider id="gnome-r1-dark-blue" path="/theme/r1/dark/GnomeDarkBlue.theme.json"/>
-        <themeProvider id="gnome-r1-dark-flat" path="/theme/r1/dark/GnomeDarkFlat.theme.json"/>
+        <!-- dark -->
+        <themeProvider id="gnome-dark-with-black-toolbar" path="/theme/dark/GnomeDarkBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-dark-yellow" path="/theme/dark/GnomeDarkYellow.theme.json"/>
+        <themeProvider id="gnome-dark-yellow-flat" path="/theme/dark/GnomeDarkYellowFlat.theme.json"/>
+        <themeProvider id="gnome-dark-blue" path="/theme/dark/GnomeDarkBlue.theme.json"/>
+        <themeProvider id="gnome-dark-blue-flat" path="/theme/dark/GnomeDarkBlueFlat.theme.json"/>
+        <themeProvider id="gnome-dark-purple" path="/theme/dark/GnomeDarkPurple.theme.json"/>
+        <themeProvider id="gnome-dark-purple-flat" path="/theme/dark/GnomeDarkPurpleFlat.theme.json"/>
 
-        <themeProvider id="gnome-r1-darker-flat" path="/theme/r1/darker/GnomeDarkerFlat.theme.json"/>
-        <themeProvider id="gnome-r1-darker-flat-with-black-toolbar" path="/theme/r1/darker/GnomeDarkerFlatBlackToolbar.theme.json"/>
-        <themeProvider id="gnome-r1-darker-blue" path="/theme/r1/darker/GnomeDarkerBlue.theme.json"/>
-
-        <!-- R2 -->
-        <themeProvider id="gnome-r2-dark-flat-with-black-toolbar" path="/theme/r2/dark/GnomeDarkFlatBlackToolbar.theme.json"/>
-        <themeProvider id="gnome-r2-dark-orange" path="/theme/r2/dark/GnomeDarkOrange.theme.json"/>
-        <themeProvider id="gnome-r2-dark-purple" path="/theme/r2/dark/GnomeDarkPurple.theme.json"/>
-        <themeProvider id="gnome-r2-dark-yellow" path="/theme/r2/dark/GnomeDarkYellow.theme.json"/>
-        <themeProvider id="gnome-r2-dark-blue" path="/theme/r2/dark/GnomeDarkBlue.theme.json"/>
-
-        <themeProvider id="gnome-r2-darker-flat" path="/theme/r2/darker/GnomeDarkerFlat.theme.json"/>
-        <themeProvider id="gnome-r2-darker-flat-with-black-toolbar" path="/theme/r2/darker/GnomeDarkerFlatBlackToolbar.theme.json"/>
-        <themeProvider id="gnome-r2-darker-orange" path="/theme/r2/darker/GnomeDarkerOrange.theme.json"/>
-        <themeProvider id="gnome-r2-darker-purple" path="/theme/r2/darker/GnomeDarkerPurple.theme.json"/>
-        <themeProvider id="gnome-r2-darker-yellow" path="/theme/r2/darker/GnomeDarkerYellow.theme.json"/>
-        <themeProvider id="gnome-r2-darker-blue" path="/theme/r2/darker/GnomeDarkerBlue.theme.json"/>
+        <!-- darker -->
+        <themeProvider id="gnome-darker" path="/theme/darker/GnomeDarker.theme.json"/>
+        <themeProvider id="gnome-darker-with-black-toolbar" path="/theme/darker/GnomeDarkerBlackToolbar.theme.json"/>
+        <themeProvider id="gnome-darker-yellow" path="/theme/darker/GnomeDarkerYellow.theme.json"/>
+        <themeProvider id="gnome-darker-blue" path="/theme/darker/GnomeDarkerBlue.theme.json"/>
+        <themeProvider id="gnome-darker-purple" path="/theme/darker/GnomeDarkerPurple.theme.json"/>
 
         <!-- default -->
-        <themeProvider id="gnome-r2-dark-flat" path="/theme/r2/dark/GnomeDarkFlat.theme.json"/>
+        <themeProvider id="gnome-dark" path="/theme/dark/GnomeDark.theme.json"/>
     </extensions>
 </idea-plugin>

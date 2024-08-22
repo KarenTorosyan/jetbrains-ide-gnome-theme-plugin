@@ -1,18 +1,23 @@
-<scheme name="Gnome R1 Light" version="142" parent_scheme="Default">
+<scheme name="GNOME Light" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="ide">idea</property>
-    <property name="ideVersion">2024.1.4.0.0</property>
+    <property name="ideVersion">2024.2.0.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="7fc784" />
     <option name="ANNOTATIONS_COLOR" value="5a5d6b" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="0" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="ffffff" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="ffffff" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="e4e6e6" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="e4e6e6" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="f2f2f2" />
+    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="e4e6e6" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="e4e6e6" />
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="ffffff" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="f2f2f2" />
     <option name="DELETED_LINES_COLOR" value="767a8a" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="e4e6eb" />
     <option name="DOCUMENTATION_COLOR" value="ffffff" />
@@ -40,8 +45,8 @@
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="88adf7" />
     <option name="INDENT_GUIDE" value="c9ccd6" />
     <option name="INFORMATION_HINT" value="ffffff" />
-    <option name="LINE_NUMBERS_COLOR" value="888888" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="767a8a" />
+    <option name="LINE_NUMBERS_COLOR" value="8b8fa0" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="50525d" />
     <option name="LOOKUP_COLOR" value="ffffff" />
     <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="62b3b3" />
     <option name="METHOD_SEPARATORS_COLOR" value="dfe1e5" />
@@ -52,7 +57,8 @@
     <option name="RECENT_LOCATIONS_SELECTION" value="e7effd" />
     <option name="RIGHT_MARGIN_COLOR" value="c9ccd6" />
     <option name="SELECTED_INDENT_GUIDE" value="aeb3c2" />
-    <option name="SELECTION_BACKGROUND" value="113c69" />
+    <option name="SELECTION_BACKGROUND" value="cce0f8" />
+    <option name="SELECTION_FOREGROUND" value="0" />
     <option name="TEARLINE_COLOR" value="d4d4d4" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="a1bef7" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="c9dafb" />
@@ -134,7 +140,6 @@
       <value>
         <option name="FOREGROUND" value="6dcc" />
         <option name="EFFECT_COLOR" value="6dcc" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
