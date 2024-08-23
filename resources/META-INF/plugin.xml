@@ -27,7 +27,7 @@
         <div><b>2.1</b> Created a dark and light Flat UI </div>
         <div><b>2.2.1</b> Created new color schemes and darker UI </div>
         <div><b>2.2.2</b> Updated compatibility version <div>
-        <div><b>2.3.1</b> UI and Scheme improvements </div>
+        <div><b>2.3.1</b> Created a new Dark-Blue theme, improved themes </div>
     ]]>
     </change-notes>
 
@@ -40,23 +40,18 @@
         <!-- light -->
         <themeProvider id="gnome-light" path="/theme/light/GnomeLight.theme.json"/>
 
-        <!-- dark -->
-        <themeProvider id="gnome-dark-with-black-toolbar" path="/theme/dark/GnomeDarkBlackToolbar.theme.json"/>
-        <themeProvider id="gnome-dark-yellow" path="/theme/dark/GnomeDarkYellow.theme.json"/>
-        <themeProvider id="gnome-dark-yellow-flat" path="/theme/dark/GnomeDarkYellowFlat.theme.json"/>
-        <themeProvider id="gnome-dark-blue" path="/theme/dark/GnomeDarkBlue.theme.json"/>
-        <themeProvider id="gnome-dark-blue-flat" path="/theme/dark/GnomeDarkBlueFlat.theme.json"/>
-        <themeProvider id="gnome-dark-purple" path="/theme/dark/GnomeDarkPurple.theme.json"/>
-        <themeProvider id="gnome-dark-purple-flat" path="/theme/dark/GnomeDarkPurpleFlat.theme.json"/>
+        <!-- dark gray -->
+        <themeProvider id="gnome-dark-grey" path="/theme/dark/GnomeDarkGrey.theme.json"/>
+        <themeProvider id="gnome-dark-grey-highlight" path="/theme/dark/GnomeDarkGreyHighlight.theme.json"/>
+
+        <!-- dark blue -->
+        <themeProvider id="gnome-dark-blue-highlight" path="/theme/dark/GnomeDarkBlueHighlight.theme.json"/>
 
         <!-- darker -->
-        <themeProvider id="gnome-darker" path="/theme/darker/GnomeDarker.theme.json"/>
-        <themeProvider id="gnome-darker-with-black-toolbar" path="/theme/darker/GnomeDarkerBlackToolbar.theme.json"/>
-        <themeProvider id="gnome-darker-yellow" path="/theme/darker/GnomeDarkerYellow.theme.json"/>
-        <themeProvider id="gnome-darker-blue" path="/theme/darker/GnomeDarkerBlue.theme.json"/>
-        <themeProvider id="gnome-darker-purple" path="/theme/darker/GnomeDarkerPurple.theme.json"/>
+        <themeProvider id="gnome-darker-grey" path="/theme/darker/GnomeDarkerGrey.theme.json"/>
+        <themeProvider id="gnome-darker-grey-highlight" path="/theme/darker/GnomeDarkerGreyHighlight.theme.json"/>
 
         <!-- default -->
-        <themeProvider id="gnome-dark" path="/theme/dark/GnomeDark.theme.json"/>
+        <themeProvider id="gnome-dark-blue" path="/theme/dark/GnomeDarkBlue.theme.json"/>
     </extensions>
 </idea-plugin>
