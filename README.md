@@ -6,10 +6,17 @@ This plugin includes a dark, darker and white UI with color schemes for all supp
 
 Install from [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/24554-gnome-theme) or manually `Settings | Plugins | Install Plugin from Disk...` [releases](https://github.com/KarenTorosyan/intellij-ide-gnome-theme-plugin/releases)
 
-Select the theme in `Settings | Appearance & Behavior | Appearance` and apply
+Select the theme in `Settings | Appearance & Behavior | Appearance | Theme`
 
-- Gnome R1 Dark or Darker (Flat, Blue)
-- Gnome R1 Light (Flat, Pink)
-- Gnome R2 Dark or Darker (Flat, Blue, Yellow, Orange, Purple)
+- GNOME Dark-Blue
+- GNOME Dark-Grey
+- GNOME Darker-Grey
+- GNOME Light
 
-![Gnome R2 Dark Purple Screenshot](screenshots/r2_dark_purple.png)
+![Gnome R2 Dark-Blue](screenshots/dark-blue.png)
+
+![Gnome R2 Dark-Grey](screenshots/dark-grey.png)
+
+![Gnome R2 Darker-Grey](screenshots/darker-grey.png)
+
+![Gnome R2 Light](screenshots/light.png)
