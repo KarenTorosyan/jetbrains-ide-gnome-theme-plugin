@@ -11,7 +11,7 @@
     "EditorHeaderUnderTabsBorderColor": "#DFE1E5",
     "EditorHeaderTabSelectedBorderColor": "#6948fd",
     "EditorBackground": "#FFFFFF",
-    "BorderColor": "#EBECF0",
+    "BorderColor": "#DFE1E5",
     "SearchToolbarBorderColor": "#DFE1E5",
 
     "Gray1": "#000000",
@@ -745,10 +745,14 @@
     },
 
     "Tree": {
+      "collapsedIcon": "/expui/general/chevronRight.svg",
+      "collapsedSelectedIcon": "/expui/general/chevronRight.svg",
+      "expandedIcon": "/expui/general/chevronDown.svg",
+      "expandedSelectedIcon": "/expui/general/chevronDown.svg",
       "forceFocusedSelectionForeground": false,
       "rowHeight": 24,
       "hash": "Gray11",
-      "border": "4,12,4,12",
+      "border": "4,4,4,4",
       "errorForeground": "Red4"
     },
 

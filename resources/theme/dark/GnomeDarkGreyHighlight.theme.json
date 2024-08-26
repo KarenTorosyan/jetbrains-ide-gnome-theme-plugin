@@ -6,15 +6,17 @@
   "editorScheme": "/scheme/GnomeDarkGrey.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#1E1E1E",
+    "EditorHeaderBackground": "#1A1A1A",
     "EditorHeaderUnderTabsBorderColor": "#4cc3d3",
     "EditorHeaderTabSelectedBorderColor": "#6948fd",
     "EditorBackground": "#1E1E1E",
     "BorderColor": "#252525",
-    "SearchToolbarBorderColor": "#1E1E1E",
+    "SearchToolbarBorderColor": "#272727",
+    "SeparatorColor": "#272727",
+    "GrayBg": "#2B2B2B",
 
     "Gray1": "#1E1E1E",
-    "Gray2": "#252525",
+    "Gray2": "#1E1E1E",
     "Gray3": "#323333",
     "Gray4": "#414444",
     "Gray5": "#4E5157",
@@ -146,17 +148,17 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "Gray3",
+      "separatorColor": "SeparatorColor",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
     },
 
     "ActionButton": {
-      "hoverBackground": "#323535",
-      "hoverBorderColor": "#323535",
-      "pressedBackground": "#323535",
-      "pressedBorderColor": "#323535",
+      "hoverBackground": "#191a1c",
+      "hoverBorderColor": "#191a1c",
+      "pressedBackground": "#191a1c",
+      "pressedBorderColor": "#191a1c",
       "focusedBorderColor": "Blue6",
       "hoverSeparatorColor": "Gray6"
     },
@@ -319,11 +321,12 @@
 
     "Editor": {
       "SearchField" : {
-        "background": "EditorBackground"
+        "background": "Gray1"
       },
 
       "Toolbar" : {
-        "borderColor" : "SearchToolbarBorderColor"
+        "borderColor" : "SearchToolbarBorderColor",
+        "background": "Gray1"
       },
 
       "ToolTip": {
@@ -370,17 +373,46 @@
     "MainMenu": {
       "selectionForeground": "Gray12",
       "selectionBackground": "Gray3",
-      "transparentSelectionBackground": "#FFFFFF1A"
+      "transparentSelectionBackground": "#FFFFFF1A",
+      "background": "Gray3"
+    },
+    "Menu": {
+      "separatorColor": "EditorHeaderTabSelectedBorderColor",
+      "borderColor": "Gray2",
+      "background": "GrayBg",
+      "selectionBackground": "Gray3"
+    },
+    "MenuItem": {
+      "background": "GrayBg",
+      "selectionBackground": "Gray3"
+    },
+    "PopupMenu": {
+      "background": "GrayBg",
+      "selectionBackground": "Gray3"
+    },
+    "Popup": {
+      "background": "GrayBg",
+      "separatorColor": "#313438",
+      "borderWidth": 1,
+      "paintBorder": true,
+      "borderColor": "Gray4",
+      "inactiveBorderColor": "Gray3",
+      "Advertiser": {
+        "foreground": "Gray8",
+        "background": "Gray3",
+        "borderColor": "Gray3",
+        "fontSizeOffset": -1
+      },
+      "Header": {
+        "activeBackground": "Gray2",
+        "inactiveBackground": "Gray2",
+        "inactiveForeground": "Gray7"
+      }
     },
 
     "MemoryIndicator": {
       "allocatedBackground": "Gray3",
       "usedBackground": "#17723e"
-    },
-
-    "Menu": {
-      "separatorColor": "EditorHeaderTabSelectedBorderColor",
-      "borderColor": "Gray2"
     },
 
     "NewUiOnboarding.Dialog.background": "Gray2",
@@ -484,27 +516,6 @@
       "eapTagBackground": "Red3"
     },
 
-    "Popup": {
-      "borderWidth": 1,
-      "paintBorder": true,
-      "borderColor": "Gray4",
-      "inactiveBorderColor": "Gray3",
-      "Advertiser": {
-        "foreground": "Gray8",
-        "background": "Gray3",
-        "borderColor": "Gray3",
-        "fontSizeOffset": -1
-      },
-      "Header": {
-        "activeBackground": "Gray2",
-        "inactiveBackground": "Gray2",
-        "inactiveForeground": "Gray7"
-      }
-    },
-
-    "PopupMenu": {
-    },
-
     "Review": {
       "Branch": {
         "Background": "Gray3",
@@ -597,7 +608,7 @@
 
     "StatusBar": {
       "background": "Gray1",
-      "borderColor": "Gray1",
+      "borderColor": "BorderColor",
       "Widget": {
         "foreground": "Gray9",
         "hoverForeground": "Gray12",
@@ -608,6 +619,11 @@
         "hoverForeground": "Gray12",
         "chevronInset": 0
       }
+    },
+
+    "DefaultTabs": {
+      "borderColor": "BorderColor",
+      "background": "GrayBg"
     },
 
     "TabbedPane": {
@@ -688,17 +704,20 @@
     },
 
     "ToolWindow": {
+      "background": "GrayBg",
       "Header": {
-        "inactiveBackground": "Gray2",
-        "font.size.offset": 0
+        "inactiveBackground": "#252525",
+        "font.size.offset": 0,
+        "borderColor": "GrayBg"
       },
       "HeaderTab": {
-        "hoverInactiveBackground": "Gray3"
+        "hoverInactiveBackground": "Gray3",
+        "underlineHeight": 2
       },
       "Button": {
         "foreground": "Gray9",
         "selectedForeground": "Gray14",
-        "selectedBackground": "#323535",
+        "selectedBackground": "#191a1c",
         "DragAndDrop" : {
           "stripeBackground" : "Gray2",
           "buttonDropBackground": "#35538F99",
@@ -742,7 +761,7 @@
       "expandedSelectedIcon": "/expui/general/chevronDown.svg",
       "rowHeight": 24,
       "hash": "Gray5",
-      "border": "4,12,4,12"
+      "border": "4,4,4,4"
     },
 
     "TitlePane": {

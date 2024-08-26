@@ -10,13 +10,10 @@ Select the theme in `Settings | Appearance & Behavior | Appearance | Theme`
 
 - GNOME Dark-Blue
 - GNOME Dark-Grey
-- GNOME Darker-Grey
 - GNOME Light
 
 ![Gnome R2 Dark-Blue](screenshots/dark-blue.png)
 
 ![Gnome R2 Dark-Grey](screenshots/dark-grey.png)
-
-![Gnome R2 Darker-Grey](screenshots/darker-grey.png)
 
 ![Gnome R2 Light](screenshots/light.png)
