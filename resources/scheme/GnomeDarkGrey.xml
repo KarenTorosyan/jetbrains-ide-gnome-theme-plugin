@@ -26,8 +26,8 @@
     <option name="DOC_COMMENT_GUIDE" value="394d3f" />
     <option name="DOC_COMMENT_LINK" value="3887a1" />
     <option name="ERROR_HINT" value="402929" />
-    <option name="FILESTATUS_ADDED" value="69b36e" />
-    <option name="FILESTATUS_COPIED" value="69b36e" />
+    <option name="FILESTATUS_ADDED" value="73bd79" />
+    <option name="FILESTATUS_COPIED" value="73bd79" />
     <option name="FILESTATUS_DELETED" value="898989" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="898989" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="7d8ac7" />
@@ -39,12 +39,12 @@
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="73bd79" />
     <option name="FILESTATUS_MERGED" value="cf87c8" />
     <option name="FILESTATUS_MODIFIED" value="70c1b3" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="ef8a8a" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="70c1b3" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="70c1b3" />
     <option name="FILESTATUS_RENAMED" value="70c1b3" />
     <option name="FILESTATUS_SWITCHED" value="bebd86" />
     <option name="FILESTATUS_UNKNOWN" value="bebd86" />
-    <option name="FILESTATUS_addedOutside" value="69b36e" />
+    <option name="FILESTATUS_addedOutside" value="73bd79" />
     <option name="FILESTATUS_changelistConflict" value="ef8a8a" />
     <option name="FILESTATUS_modifiedOutside" value="70c1b3" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="252525" />

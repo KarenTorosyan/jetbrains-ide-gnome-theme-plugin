@@ -7,11 +7,12 @@
   "colors": {
 
     "EditorHeaderBackground": "#1E1E1E",
-    "EditorHeaderUnderTabsBorderColor": "#1E1E1E",
+    "EditorHeaderUnderTabsBorderColor": "#252525",
     "EditorHeaderTabSelectedBorderColor": "#6948fd",
     "EditorBackground": "#1E1E1E",
-    "BorderColor": "#252525",
-    "SearchToolbarBorderColor": "#1E1E1E",
+    "BorderColor": "#222222",
+    "SearchToolbarBorderColor": "#252525",
+    "SeparatorColor": "#333338",
 
     "Gray1": "#1E1E1E",
     "Gray2": "#252525",
@@ -146,7 +147,7 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "Gray3",
+      "separatorColor": "SeparatorColor",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
@@ -379,7 +380,7 @@
     },
 
     "Menu": {
-      "separatorColor": "Gray5",
+      "separatorColor": "sepearatorColor",
       "borderColor": "Gray2"
     },
 
@@ -596,8 +597,8 @@
     },
 
     "StatusBar": {
-      "background": "Gray1",
-      "borderColor": "Gray1",
+      "background": "Gray2",
+      "borderColor": "BorderColor",
       "Widget": {
         "foreground": "Gray9",
         "hoverForeground": "Gray12",
@@ -608,6 +609,11 @@
         "hoverForeground": "Gray12",
         "chevronInset": 0
       }
+    },
+
+    "DefaultTabs": {
+      "borderColor": "BorderColor",
+      "background": "#2E2F2F"
     },
 
     "TabbedPane": {
@@ -690,10 +696,12 @@
     "ToolWindow": {
       "Header": {
         "inactiveBackground": "Gray2",
-        "font.size.offset": 0
+        "font.size.offset": 0,
+        "borderColor": "Gray2"
       },
       "HeaderTab": {
-        "hoverInactiveBackground": "Gray3"
+        "hoverInactiveBackground": "Gray3",
+        "underlineHeight": 2
       },
       "Button": {
         "foreground": "Gray9",
@@ -742,7 +750,7 @@
       "expandedSelectedIcon": "/expui/general/chevronDown.svg",
       "rowHeight": 24,
       "hash": "Gray5",
-      "border": "4,12,4,12"
+      "border": "4,4,4,4"
     },
 
     "TitlePane": {

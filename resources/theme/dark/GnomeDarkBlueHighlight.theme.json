@@ -10,8 +10,9 @@
     "EditorHeaderUnderTabsBorderColor": "#4cc3d3",
     "EditorHeaderTabSelectedBorderColor": "#6948fd",
     "EditorBackground": "#1E1F22",
-    "BorderColor": "#2B2D30",
-    "SearchToolbarBorderColor": "#1E1F22",
+    "BorderColor": "#26282a",
+    "SearchToolbarBorderColor": "#25272a",
+    "SeparatorColor": "#3d3d43",
 
     "Gray1": "#1E1F22",
     "Gray2": "#2B2D30",
@@ -146,7 +147,7 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "Gray3",
+      "separatorColor": "SeparatorColor",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
@@ -596,8 +597,8 @@
     },
 
     "StatusBar": {
-      "background": "Gray1",
-      "borderColor": "Gray1",
+      "background": "Gray2",
+      "borderColor": "BorderColor",
       "Widget": {
         "foreground": "Gray9",
         "hoverForeground": "Gray12",
@@ -608,6 +609,11 @@
         "hoverForeground": "Gray12",
         "chevronInset": 0
       }
+    },
+
+    "DefaultTabs": {
+      "borderColor": "BorderColor",
+      "background": "#323538"
     },
 
     "TabbedPane": {
@@ -690,10 +696,12 @@
     "ToolWindow": {
       "Header": {
         "inactiveBackground": "Gray2",
-        "font.size.offset": 0
+        "font.size.offset": 0,
+        "borderColor": "Gray2"
       },
       "HeaderTab": {
-        "hoverInactiveBackground": "Gray3"
+        "hoverInactiveBackground": "Gray3",
+        "underlineHeight": "2"
       },
       "Button": {
         "foreground": "Gray9",

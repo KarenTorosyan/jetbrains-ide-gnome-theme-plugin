@@ -748,7 +748,7 @@
       "forceFocusedSelectionForeground": false,
       "rowHeight": 24,
       "hash": "Gray11",
-      "border": "4,12,4,12",
+      "border": "4,4,4,4",
       "errorForeground": "Red4"
     },
 
