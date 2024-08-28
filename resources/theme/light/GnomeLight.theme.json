@@ -9,7 +9,7 @@
 
     "EditorHeaderBackground": "#FFFFFF",
     "EditorHeaderUnderTabsBorderColor": "#DFE1E5",
-    "EditorHeaderTabSelectedBorderColor": "#6948fd",
+    "EditorHeaderTabSelectedBorderColor": "#039BA1",
     "EditorBackground": "#FFFFFF",
     "BorderColor": "#DFE1E5",
     "SearchToolbarBorderColor": "#DFE1E5",
@@ -137,7 +137,7 @@
       "acceleratorSelectionForeground": "Gray7",
       "shortcutForeground": "Gray7",
 
-      "underlineColor": "#6948fd",
+      "underlineColor": "#039BA1",
       "inactiveUnderlineColor": "Gray8",
 
       "focusColor": "Blue4",

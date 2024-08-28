@@ -1,24 +1,24 @@
 {
-  "name": "GNOME Dark-Blue Highlight",
+  "name": "GNOME Grey",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "gnome-dark-blue-highlight",
-  "editorScheme": "/scheme/GnomeDarkBlue.xml",
+  "nameKey": "gnome-grey",
+  "editorScheme": "/scheme/GnomeGrey.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#191a1c",
-    "EditorHeaderUnderTabsBorderColor": "#4cc3d3",
-    "EditorHeaderTabSelectedBorderColor": "#6948fd",
-    "EditorBackground": "#1E1F22",
-    "BorderColor": "#26282D",
-    "SearchToolbarBorderColor": "#26282D",
-    "SeparatorColor": "#26282D",
-    "GrayBg": "#2B2D30",
+    "EditorHeaderBackground": "#252525",
+    "EditorHeaderUnderTabsBorderColor": "#272727",
+    "EditorHeaderTabSelectedBorderColor": "#238E82",
+    "EditorBackground": "#1E1E1E",
+    "BorderColor": "#252525",
+    "SearchToolbarBorderColor": "#272727",
+    "SeparatorColor": "#272727",
+    "GrayBg": "#2B2B2B",
 
-    "Gray1": "#1E1F22",
-    "Gray2": "#1E1F22",
-    "Gray3": "#393B40",
-    "Gray4": "#43454A",
+    "Gray1": "#252525",
+    "Gray2": "#252525",
+    "Gray3": "#373838",
+    "Gray4": "#414444",
     "Gray5": "#4E5157",
     "Gray6": "#5A5D63",
     "Gray7": "#6F737A",
@@ -155,10 +155,10 @@
     },
 
     "ActionButton": {
-      "hoverBackground": "#191a1c",
-      "hoverBorderColor": "#191a1c",
-      "pressedBackground": "#191a1c",
-      "pressedBorderColor": "#191a1c",
+      "hoverBackground": "#484848",
+      "hoverBorderColor": "#484848",
+      "pressedBackground": "#484848",
+      "pressedBorderColor": "#484848",
       "focusedBorderColor": "Blue6",
       "hoverSeparatorColor": "Gray6"
     },
@@ -304,8 +304,8 @@
     },
 
     "EditorTabs": {
-      "underlineArc": 0,
-      "underlineHeight": 1,
+      "underlineArc": 4,
+      "underlineHeight": 3,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.7,
       "background": "EditorHeaderBackground",
@@ -321,7 +321,7 @@
 
     "Editor": {
       "SearchField" : {
-        "background": "Gray1"
+        "background": "EditorBackground"
       },
 
       "Toolbar" : {
@@ -377,7 +377,7 @@
       "background": "Gray3"
     },
     "Menu": {
-      "separatorColor": "EditorHeaderTabSelectedBorderColor",
+      "separatorColor": "Gray3",
       "borderColor": "Gray2",
       "background": "GrayBg",
       "selectionBackground": "Gray3"
@@ -622,8 +622,8 @@
     },
 
     "DefaultTabs": {
-      "borderColor": "BorderColor",
-      "background": "GrayBg"
+      "borderColor": "Gray3",
+      "background": "Gray3"
     },
 
     "TabbedPane": {
@@ -706,18 +706,18 @@
     "ToolWindow": {
       "background": "GrayBg",
       "Header": {
-        "inactiveBackground": "#28292c",
+        "inactiveBackground": "GrayBg",
         "font.size.offset": 0,
         "borderColor": "GrayBg"
       },
       "HeaderTab": {
         "hoverInactiveBackground": "Gray3",
-        "underlineHeight": 2
+        "underlineHeight": 3
       },
       "Button": {
         "foreground": "Gray9",
         "selectedForeground": "Gray14",
-        "selectedBackground": "#191a1c",
+        "selectedBackground": "#484848",
         "DragAndDrop" : {
           "stripeBackground" : "Gray2",
           "buttonDropBackground": "#35538F99",

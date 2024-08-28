@@ -8,7 +8,7 @@
 
     "EditorHeaderBackground": "#1A1A1A",
     "EditorHeaderUnderTabsBorderColor": "#272727",
-    "EditorHeaderTabSelectedBorderColor": "#6948fd",
+    "EditorHeaderTabSelectedBorderColor": "#238E82",
     "EditorBackground": "#1E1E1E",
     "BorderColor": "#252525",
     "SearchToolbarBorderColor": "#272727",
@@ -17,7 +17,7 @@
 
     "Gray1": "#1E1E1E",
     "Gray2": "#1E1E1E",
-    "Gray3": "#323333",
+    "Gray3": "#373838",
     "Gray4": "#414444",
     "Gray5": "#4E5157",
     "Gray6": "#5A5D63",
@@ -305,7 +305,7 @@
 
     "EditorTabs": {
       "underlineArc": 4,
-      "underlineHeight": 2,
+      "underlineHeight": 3,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.7,
       "background": "EditorHeaderBackground",
@@ -377,7 +377,7 @@
       "background": "Gray3"
     },
     "Menu": {
-      "separatorColor": "Gray5",
+      "separatorColor": "Gray3",
       "borderColor": "Gray2",
       "background": "GrayBg",
       "selectionBackground": "Gray3"
@@ -623,7 +623,7 @@
 
     "DefaultTabs": {
       "borderColor": "BorderColor",
-      "background": "GrayBg"
+      "background": "#323333"
     },
 
     "TabbedPane": {
@@ -712,7 +712,7 @@
       },
       "HeaderTab": {
         "hoverInactiveBackground": "Gray3",
-        "underlineHeight": 2
+        "underlineHeight": 3
       },
       "Button": {
         "foreground": "Gray9",
