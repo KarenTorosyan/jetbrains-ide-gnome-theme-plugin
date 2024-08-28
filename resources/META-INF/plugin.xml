@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>2.3.3</version>
+    <version>2.4.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -27,7 +27,8 @@
         <div><b>2.1</b> Created a dark and light Flat UI </div>
         <div><b>2.2.1</b> Created new color schemes and darker UI </div>
         <div><b>2.2.2</b> Updated compatibility version <div>
-        <div><b>2.3.3</b> Created a new Dark-Blue theme, improved themes </div>
+        <div><b>2.3.2</b> Created a new Dark-Blue theme, improved themes </div>
+        <div><b>2.4.1</b> Created Grey-Blue and Grey themes </div>
     ]]>
     </change-notes>
 
@@ -47,9 +48,13 @@
         <!-- dark blue -->
         <themeProvider id="gnome-dark-blue-highlight" path="/theme/dark/GnomeDarkBlueHighlight.theme.json"/>
 
-        <!-- darker grey -->
-        <themeProvider id="gnome-darker-grey" path="/theme/darker/GnomeDarkerGrey.theme.json"/>
-        <themeProvider id="gnome-darker-grey-highlight" path="/theme/darker/GnomeDarkerGreyHighlight.theme.json"/>
+        <!-- grey -->
+        <themeProvider id="gnome-grey" path="/theme/grey/GnomeGrey.theme.json"/>
+        <themeProvider id="gnome-grey-highlight" path="/theme/grey/GnomeGreyHighlight.theme.json"/>
+
+        <!-- grey blue -->
+        <themeProvider id="gnome-grey-blue" path="/theme/grey/GnomeGreyBlue.theme.json"/>
+        <themeProvider id="gnome-grey-blue-highlight" path="/theme/grey/GnomeGreyBlueHighlight.theme.json"/>
 
         <!-- default -->
         <themeProvider id="gnome-dark-blue" path="/theme/dark/GnomeDarkBlue.theme.json"/>

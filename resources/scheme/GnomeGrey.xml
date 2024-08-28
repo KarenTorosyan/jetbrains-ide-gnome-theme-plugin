@@ -1,4 +1,4 @@
-<scheme name="GNOME Dark Grey" version="142" parent_scheme="Darcula">
+<scheme name="GNOME Grey" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.2.0.2.0.0</property>
@@ -18,7 +18,7 @@
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1e1e1e" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="252525" />
     <option name="DELETED_LINES_COLOR" value="868a91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
     <option name="DOCUMENTATION_COLOR" value="2b2b2b" />

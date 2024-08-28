@@ -623,7 +623,7 @@
 
     "DefaultTabs": {
       "borderColor": "BorderColor",
-      "background": "GrayBg"
+      "background": "#313337"
     },
 
     "TabbedPane": {

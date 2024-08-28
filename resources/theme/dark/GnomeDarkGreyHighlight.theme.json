@@ -17,7 +17,7 @@
 
     "Gray1": "#1E1E1E",
     "Gray2": "#1E1E1E",
-    "Gray3": "#323333",
+    "Gray3": "#373838",
     "Gray4": "#414444",
     "Gray5": "#4E5157",
     "Gray6": "#5A5D63",
@@ -623,7 +623,7 @@
 
     "DefaultTabs": {
       "borderColor": "BorderColor",
-      "background": "GrayBg"
+      "background": "#323333"
     },
 
     "TabbedPane": {
