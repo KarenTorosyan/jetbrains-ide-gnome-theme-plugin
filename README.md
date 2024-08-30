@@ -16,3 +16,7 @@ Select the theme in `Settings | Appearance & Behavior | Appearance | Theme`
 - GNOME Light
 
 ![Gnome R2 Dark-Blue](screenshots/dark-blue.png)
+
+![Gnome R2 Grey-Blue](screenshots/grey-blue.png)
+
+![Gnome R2 Light](screenshots/light.png)
