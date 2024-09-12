@@ -1,7 +1,7 @@
 <scheme name="GNOME Light" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="ide">idea</property>
-    <property name="ideVersion">2024.2.0.1.0.0</property>
+    <property name="ideVersion">2024.2.1.0.0</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="7fc784" />
@@ -192,8 +192,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="3d4e54" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="be6753" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -210,7 +209,6 @@
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="3d3d3d" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
@@ -317,14 +315,12 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="c6891f" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="be6753" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="8e44ad" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="be6753" />
       </value>
     </option>
     <option name="DEFAULT_STRING">

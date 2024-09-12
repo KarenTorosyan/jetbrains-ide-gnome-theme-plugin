@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>2.4.1</version>
+    <version>2.5.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -17,18 +17,19 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>This plugin includes a dark and white UI with color schemes for all supported languages.</description>
+    <description>This plugin presents Dark and Light UI variants with better integration with the GNOME Adwaita theme for Jetbrains IDEs with color schemes for IntelliJ IDEA.</description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes>
     <![CDATA[
-        <div><b>2.0</b> New release </div>
-        <div><b>2.1</b> Created a dark and light Flat UI </div>
-        <div><b>2.2.1</b> Created new color schemes and darker UI </div>
-        <div><b>2.2.2</b> Updated compatibility version <div>
-        <div><b>2.3.2</b> Created a new Dark-Blue theme, improved themes </div>
-        <div><b>2.4.1</b> Created Grey-Blue and Grey themes </div>
+        <div>
+            <b>2.5.1</b>
+        </div>
+        <ul>
+            <li>Created Soft/Lite/Mid/Hard theme variants</li>
+            <li>Some themes have been improved and renamed</li>
+        </ul>
     ]]>
     </change-notes>
 
@@ -37,13 +38,22 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="gnome-light" path="/theme/light/GnomeLight.theme.json"/>
-        <themeProvider id="gnome-dark-grey" path="/theme/dark/GnomeDarkGrey.theme.json"/>
-        <themeProvider id="gnome-grey" path="/theme/grey/GnomeGrey.theme.json"/>
-        <themeProvider id="gnome-grey-blue" path="/theme/grey/GnomeGreyBlue.theme.json"/>
-        <themeProvider id="gnome-darker-grey" path="/theme/darker/GnomeDarkerGrey.theme.json"/>
+
+        <!-- light -->
+        <themeProvider id="gnome-light" path="/theme/GnomeLight.theme.json"/>
+
+        <!-- dark-blue -->
+        <themeProvider id="gnome-dark-blue-soft" path="/theme/GnomeDarkBlueSoft.theme.json"/>
+        <themeProvider id="gnome-dark-blue-lite" path="/theme/GnomeDarkBlueLite.theme.json"/>
+
+        <!-- dark-grey-->
+        <themeProvider id="gnome-dark-grey" path="/theme/GnomeDarkGrey.theme.json"/>
+        <themeProvider id="gnome-dark-grey-soft" path="/theme/GnomeDarkGreySoft.theme.json"/>
+        <themeProvider id="gnome-dark-grey-lite" path="/theme/GnomeDarkGreyLite.theme.json"/>
+        <themeProvider id="gnome-dark-grey-mid" path="/theme/GnomeDarkGreyMid.theme.json"/>
+        <themeProvider id="gnome-dark-grey-hard" path="/theme/GnomeDarkGreyHard.theme.json"/>
 
         <!-- default -->
-        <themeProvider id="gnome-dark-blue" path="/theme/dark/GnomeDarkBlue.theme.json"/>
+        <themeProvider id="gnome-dark-blue" path="/theme/GnomeDarkBlue.theme.json"/>
     </extensions>
 </idea-plugin>

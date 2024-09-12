@@ -1,4 +1,4 @@
-<scheme name="GNOME Dark-Blue" version="142" parent_scheme="Darcula">
+<scheme name="GNOME Dark-Blue Soft" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.2.1.0.0</property>
@@ -7,21 +7,21 @@
     <option name="ADDED_LINES_COLOR" value="69b36e" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="ced0d6" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="191a1c" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="191a1c" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="191a1c" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="28292c" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="28292c" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="28292c" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ced0d6" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="191a1c" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="28292c" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="191a1c" />
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="28292c" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="191a1c" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="28292c" />
     <option name="DELETED_LINES_COLOR" value="868a91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
-    <option name="DOCUMENTATION_COLOR" value="1e1f22" />
+    <option name="DOCUMENTATION_COLOR" value="2b2d30" />
     <option name="DOC_COMMENT_GUIDE" value="394d3f" />
     <option name="DOC_COMMENT_LINK" value="3887a1" />
     <option name="ERROR_HINT" value="402929" />
@@ -52,19 +52,19 @@
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="868a91" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="cf87c8" />
     <option name="INDENT_GUIDE" value="313438" />
-    <option name="INFORMATION_HINT" value="1e1f22" />
+    <option name="INFORMATION_HINT" value="2b2d30" />
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="393b40" />
     <option name="LINE_NUMBERS_COLOR" value="717379" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a1a3ab" />
-    <option name="LOOKUP_COLOR" value="1e1f22" />
+    <option name="LOOKUP_COLOR" value="2b2d30" />
     <option name="METHOD_SEPARATORS_COLOR" value="43454a" />
     <option name="MODIFIED_LINES_COLOR" value="cf87c8" />
     <option name="NOTIFICATION_BACKGROUND" value="25324d" />
     <option name="PROMOTION_PANE" value="25324d" />
     <option name="QUESTION_HINT" value="25324d" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="1e1f22" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="2b2d30" />
     <option name="RIGHT_MARGIN_COLOR" value="393b40" />
     <option name="SELECTED_INDENT_GUIDE" value="666870" />
     <option name="SELECTION_BACKGROUND" value="113c69" />

@@ -1,12 +1,12 @@
 {
-  "name": "GNOME Grey",
+  "name": "GNOME Dark-Grey Lite",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "gnome-grey",
-  "editorScheme": "/scheme/GnomeGrey.xml",
+  "nameKey": "gnome-dark-grey-lite",
+  "editorScheme": "/scheme/GnomeDarkGreyLite.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#252525",
+    "EditorHeaderBackground": "#1A1A1A",
     "EditorHeaderUnderTabsBorderColor": "#272727",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
     "EditorBackground": "#1E1E1E",
@@ -15,8 +15,8 @@
     "SeparatorColor": "#272727",
     "GrayBg": "#2B2B2B",
 
-    "Gray1": "#252525",
-    "Gray2": "#252525",
+    "Gray1": "#1E1E1E",
+    "Gray2": "#1E1E1E",
     "Gray3": "#373838",
     "Gray4": "#414444",
     "Gray5": "#4E5157",
@@ -155,10 +155,10 @@
     },
 
     "ActionButton": {
-      "hoverBackground": "#484848",
-      "hoverBorderColor": "#484848",
-      "pressedBackground": "#484848",
-      "pressedBorderColor": "#484848",
+      "hoverBackground": "#191a1c99",
+      "hoverBorderColor": "#191a1c99",
+      "pressedBackground": "#191a1c99",
+      "pressedBorderColor": "#191a1c99",
       "focusedBorderColor": "Blue6",
       "hoverSeparatorColor": "Gray6"
     },
@@ -321,7 +321,7 @@
 
     "Editor": {
       "SearchField" : {
-        "background": "EditorBackground"
+        "background": "Gray1"
       },
 
       "Toolbar" : {
@@ -537,7 +537,7 @@
       "matchForeground": "Blue8",
       "Advertiser": {
         "foreground": "Gray7",
-        "background": "Gray3"
+        "background": "#252525"
       }
     },
 
@@ -622,8 +622,8 @@
     },
 
     "DefaultTabs": {
-      "borderColor": "Gray3",
-      "background": "Gray3"
+      "borderColor": "BorderColor",
+      "background": "#323333"
     },
 
     "TabbedPane": {
@@ -706,7 +706,7 @@
     "ToolWindow": {
       "background": "GrayBg",
       "Header": {
-        "inactiveBackground": "GrayBg",
+        "inactiveBackground": "#252525",
         "font.size.offset": 0,
         "borderColor": "GrayBg"
       },
@@ -717,7 +717,7 @@
       "Button": {
         "foreground": "Gray9",
         "selectedForeground": "Gray14",
-        "selectedBackground": "#484848",
+        "selectedBackground": "#191a1c",
         "DragAndDrop" : {
           "stripeBackground" : "Gray2",
           "buttonDropBackground": "#35538F99",
@@ -774,7 +774,7 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "Gray1",
+          "currentBranchBackground": "#252525",
           "selectionBackground": "Gray3",
           "selectionInactiveBackground": "Gray3",
           "unmatchedForeground": "Gray7",
@@ -786,7 +786,7 @@
           "brightness": 0.6
         }
       },
-      "FileHistory.Commit.selectedBranchBackground": "Gray1",
+      "FileHistory.Commit.selectedBranchBackground": "#252525",
       "MarkerPopup": {
         "borderColor": "Gray4"
       },

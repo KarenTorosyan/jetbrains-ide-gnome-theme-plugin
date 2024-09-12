@@ -1,9 +1,9 @@
 {
-  "name": "GNOME Grey-Blue",
+  "name": "GNOME Dark-Blue Soft",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "gnome-grey-blue",
-  "editorScheme": "/scheme/GnomeGreyBlue.xml",
+  "nameKey": "gnome-dark-blue-soft",
+  "editorScheme": "/scheme/GnomeDarkBlueSoft.xml",
   "colors": {
 
     "EditorHeaderBackground": "#28292C",
@@ -155,10 +155,10 @@
     },
 
     "ActionButton": {
-      "hoverBackground": "#42444a",
-      "hoverBorderColor": "#42444a",
-      "pressedBackground": "#42444a",
-      "pressedBorderColor": "#42444a",
+      "hoverBackground": "#42444a99",
+      "hoverBorderColor": "#42444a99",
+      "pressedBackground": "#42444a99",
+      "pressedBorderColor": "#42444a99",
       "focusedBorderColor": "Blue6",
       "hoverSeparatorColor": "Gray6"
     },
@@ -537,7 +537,7 @@
       "matchForeground": "Blue8",
       "Advertiser": {
         "foreground": "Gray7",
-        "background": "Gray3"
+        "background": "#28292C"
       }
     },
 
