@@ -1,6 +1,6 @@
 # Theme for JetBrains IDEs
 
-This plugin includes a dark, darker and white UI with color schemes for all supported languages.
+This plugin presents Dark and Light UI variants with better integration with the GNOME Adwaita theme for Jetbrains IDEs with color schemes for IntelliJ IDEA.
 
 ## Install
 
@@ -9,14 +9,19 @@ Install from [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/24554-
 Select the theme in `Settings | Appearance & Behavior | Appearance | Theme`
 
 - GNOME Dark-Blue
+- GNOME Dark-Blue Soft
+- GNOME Dark-Grey Lite
 - GNOME Dark-Grey
-- GNOME Grey-Blue
-- GNOME Grey
-- GNOME Darker-Grey
+- GNOME Dark-Grey Soft
+- GNOME Dark-Grey Lite
+- GNOME Dark-Grey Mid
+- GNOME Dark-Grey Hard
 - GNOME Light
 
-![Gnome R2 Dark-Blue](screenshots/dark-blue.png)
+![Gnome Dark-Blue](screenshots/dark-blue.png)
 
-![Gnome R2 Grey-Blue](screenshots/grey-blue.png)
+![Gnome Dark-Blue Soft](screenshots/dark-blue-soft.png)
 
-![Gnome R2 Light](screenshots/light.png)
+![Gnome Dark-Blue Lite](screenshots/dark-blue-lite.png)
+
+![Gnome Light](screenshots/light.png)
