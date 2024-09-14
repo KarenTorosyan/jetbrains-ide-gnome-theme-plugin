@@ -22,6 +22,4 @@ Select the theme in `Settings | Appearance & Behavior | Appearance | Theme`
 
 ![Gnome Dark-Blue Soft](screenshots/dark-blue-soft.png)
 
-![Gnome Dark-Blue Lite](screenshots/dark-blue-lite.png)
-
 ![Gnome Light](screenshots/light.png)
