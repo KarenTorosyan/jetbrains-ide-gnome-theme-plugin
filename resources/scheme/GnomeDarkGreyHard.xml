@@ -1,7 +1,7 @@
 <scheme name="GNOME Dark-Grey Hard" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">idea</property>
-    <property name="ideVersion">2024.2.1.0.0</property>
+    <property name="ideVersion">2024.2.3.0.0</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="69b36e" />
@@ -25,28 +25,27 @@
     <option name="DOC_COMMENT_GUIDE" value="394d3f" />
     <option name="DOC_COMMENT_LINK" value="3887a1" />
     <option name="ERROR_HINT" value="402929" />
-    <option name="FILESTATUS_ADDED" value="65b092" />
-    <option name="FILESTATUS_COPIED" value="65b092" />
-    <option name="FILESTATUS_DELETED" value="898989" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="898989" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="7d8ac7" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d06e6e" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d06e6e" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d06e6e" />
+    <option name="FILESTATUS_ADDED" value="6fc389" />
+    <option name="FILESTATUS_COPIED" value="6fc389" />
+    <option name="FILESTATUS_DELETED" value="8c979e" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="8c979e" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="8f9bd2" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="de7878" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="de7878" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="de7878" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="65b092" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="6fc389" />
     <option name="FILESTATUS_MERGED" value="cf87c8" />
-    <option name="FILESTATUS_MODIFIED" value="72aac8" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6ea3c0" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6ea3c0" />
+    <option name="FILESTATUS_MODIFIED" value="7db7d8" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7db7d8" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="7db7d8" />
     <option name="FILESTATUS_OBSOLETE" value="" />
-    <option name="FILESTATUS_RENAMED" value="6ea3c0" />
-    <option name="FILESTATUS_SWITCHED" value="bc7e6d" />
-    <option name="FILESTATUS_UNKNOWN" value="bc7e6d" />
-    <option name="FILESTATUS_addedOutside" value="65b092" />
-    <option name="FILESTATUS_changelistConflict" value="d06e6e" />
-    <option name="FILESTATUS_modifiedOutside" value="6ea3c0" />
+    <option name="FILESTATUS_RENAMED" value="7db7d8" />
+    <option name="FILESTATUS_UNKNOWN" value="d38e7b" />
+    <option name="FILESTATUS_addedOutside" value="6fc389" />
+    <option name="FILESTATUS_changelistConflict" value="de7878" />
+    <option name="FILESTATUS_modifiedOutside" value="7db7d8" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="393b40" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="69b36e" />
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="868a91" />
@@ -163,7 +162,7 @@
     </option>
     <option name="BLOCK_TERMINAL_RED">
       <value>
-        <option name="FOREGROUND" value="e56f7d" />
+        <option name="FOREGROUND" value="ff6578" />
         <option name="BACKGROUND" value="ba3f4b" />
       </value>
     </option>
@@ -242,7 +241,7 @@
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="d36774" />
+        <option name="FOREGROUND" value="ff6578" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -281,7 +280,7 @@
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="d36774" />
+        <option name="FOREGROUND" value="ff6578" />
         <option name="BACKGROUND" value="772e2c" />
       </value>
     </option>
@@ -325,7 +324,7 @@
     </option>
     <option name="CSS.COLOR">
       <value>
-        <option name="FOREGROUND" value="16a04d" />
+        <option name="FOREGROUND" value="65c487" />
       </value>
     </option>
     <option name="CSS.IMPORTANT">
@@ -422,7 +421,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="16a04d" />
+        <option name="FOREGROUND" value="65c487" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -433,7 +432,7 @@
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="b776b0" />
+        <option name="FOREGROUND" value="bf7aba" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
@@ -460,7 +459,7 @@
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="16a04d" />
+        <option name="FOREGROUND" value="65c487" />
         <option name="EFFECT_COLOR" value="6b6c73" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -515,7 +514,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="16a04d" />
+        <option name="FOREGROUND" value="bebd7c" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -571,7 +570,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="16a04d" />
+        <option name="FOREGROUND" value="65c487" />
       </value>
     </option>
     <option name="DEFAULT_TAG">
@@ -681,12 +680,12 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="b776b0" />
+        <option name="FOREGROUND" value="bf7aba" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="b776b0" />
+        <option name="FOREGROUND" value="bf7aba" />
       </value>
     </option>
     <option name="HTTP_REQUEST_KEYWORD">
@@ -1261,18 +1260,18 @@
     </option>
     <option name="XML_PROLOGUE">
       <value>
-        <option name="FOREGROUND" value="b776b0" />
+        <option name="FOREGROUND" value="bf7aba" />
       </value>
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="b776b0" />
+        <option name="FOREGROUND" value="bf7aba" />
       </value>
     </option>
     <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="b776b0" />
+        <option name="FOREGROUND" value="bf7aba" />
       </value>
     </option>
     <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
@@ -1319,7 +1318,7 @@
     </option>
     <option name="YAML_TEXT">
       <value>
-        <option name="FOREGROUND" value="16a04d" />
+        <option name="FOREGROUND" value="65c487" />
       </value>
     </option>
     <option name="org.gradle.declarative.BOOLEAN">
