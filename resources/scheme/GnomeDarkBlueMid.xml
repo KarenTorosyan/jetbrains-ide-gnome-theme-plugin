@@ -1,24 +1,25 @@
-<scheme name="GNOME Dark-Blue Hard" version="142" parent_scheme="Darcula">
+<scheme name="GNOME Dark-Blue Mid" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.2.3.0.0</property>
+    <property name="originalScheme">GNOME Dark-Blue Mid</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="69b36e" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="ced0d6" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="191a1c" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="191a1c" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="191a1c" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1c1d20" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1c1d20" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1c1d20" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ced0d6" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="191a1c" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1c1d20" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="191a1c" />
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="1c1d20" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="191a1c" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1c1d20" />
     <option name="DELETED_LINES_COLOR" value="868a91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
     <option name="DOCUMENTATION_COLOR" value="202124" />

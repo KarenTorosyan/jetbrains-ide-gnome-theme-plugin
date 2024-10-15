@@ -18,10 +18,10 @@
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1e1f22" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1f2023" />
     <option name="DELETED_LINES_COLOR" value="868a91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
-    <option name="DOCUMENTATION_COLOR" value="1e1f22" />
+    <option name="DOCUMENTATION_COLOR" value="232427" />
     <option name="DOC_COMMENT_GUIDE" value="394d3f" />
     <option name="DOC_COMMENT_LINK" value="3887a1" />
     <option name="ERROR_HINT" value="402929" />
@@ -29,12 +29,12 @@
     <option name="FILESTATUS_COPIED" value="6fc389" />
     <option name="FILESTATUS_DELETED" value="8c979e" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="8c979e" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="8f9bd2" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="909edc" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="da8086" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="da8086" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="da8086" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="6fc389" />
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="6fc389" />
     <option name="FILESTATUS_MERGED" value="cf87c8" />
     <option name="FILESTATUS_MODIFIED" value="89beef" />
@@ -50,19 +50,19 @@
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="868a91" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="cf87c8" />
     <option name="INDENT_GUIDE" value="313438" />
-    <option name="INFORMATION_HINT" value="1e1f22" />
+    <option name="INFORMATION_HINT" value="232427" />
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="393b40" />
     <option name="LINE_NUMBERS_COLOR" value="717379" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a1a3ab" />
-    <option name="LOOKUP_COLOR" value="1e1f22" />
+    <option name="LOOKUP_COLOR" value="232427" />
     <option name="METHOD_SEPARATORS_COLOR" value="43454a" />
     <option name="MODIFIED_LINES_COLOR" value="cf87c8" />
     <option name="NOTIFICATION_BACKGROUND" value="25324d" />
     <option name="PROMOTION_PANE" value="25324d" />
     <option name="QUESTION_HINT" value="25324d" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="1e1f22" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="232427" />
     <option name="RIGHT_MARGIN_COLOR" value="393b40" />
     <option name="SELECTED_INDENT_GUIDE" value="666870" />
     <option name="SELECTION_BACKGROUND" value="113c69" />
@@ -466,7 +466,7 @@
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="a190ea" />
+        <option name="FOREGROUND" value="b099ff" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
@@ -476,7 +476,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="cf87c8" />
+        <option name="FOREGROUND" value="dc8ed7" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -508,7 +508,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="7ac3c0" />
+        <option name="FOREGROUND" value="79cccc" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -557,7 +557,7 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="a190ea" />
+        <option name="FOREGROUND" value="b099ff" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1149,7 +1149,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="bcbec4" />
-        <option name="BACKGROUND" value="1e1f22" />
+        <option name="BACKGROUND" value="202124" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
