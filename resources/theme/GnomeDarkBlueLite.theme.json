@@ -6,17 +6,18 @@
   "editorScheme": "/scheme/GnomeDarkBlueLite.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#191a1c",
+    "EditorHeaderBackground": "#1f2023",
     "EditorHeaderUnderTabsBorderColor": "#26282D",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
-    "EditorBackground": "#1E1F22",
+    "EditorBackground": "#212225",
     "BorderColor": "#26282D",
     "SearchToolbarBorderColor": "#26282D",
     "SeparatorColor": "#26282D",
     "GrayBg": "#2B2D30",
+    "MenuBg": "#282A2D",
 
-    "Gray1": "#1E1F22",
-    "Gray2": "#1E1F22",
+    "Gray1": "#1f2023",
+    "Gray2": "#1f2023",
     "Gray3": "#393B40",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
@@ -152,6 +153,14 @@
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
+    },
+
+    "ScrollBar": {
+      "Transparent": {
+        "thumbColor": "#191a1c60",
+        "thumbBorderColor": "#2B2D30",
+        "hoverThumbColor": "#191a1c99"
+      }
     },
 
     "ActionButton": {
@@ -374,24 +383,24 @@
       "selectionForeground": "Gray12",
       "selectionBackground": "Gray3",
       "transparentSelectionBackground": "#FFFFFF1A",
-      "background": "Gray3"
+      "background": "MenuBg"
     },
     "Menu": {
       "separatorColor": "Gray3",
       "borderColor": "Gray2",
-      "background": "GrayBg",
+      "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
     "MenuItem": {
-      "background": "GrayBg",
+      "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
     "PopupMenu": {
-      "background": "GrayBg",
+      "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
     "Popup": {
-      "background": "GrayBg",
+      "background": "MenuBg",
       "separatorColor": "#313438",
       "borderWidth": 1,
       "paintBorder": true,
@@ -774,9 +783,9 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "#28292C",
-          "selectionBackground": "Gray3",
-          "selectionInactiveBackground": "Gray3",
+          "currentBranchBackground": "#151f2f",
+          "selectionBackground": "#233b6a",
+          "selectionInactiveBackground": "#233b6a",
           "unmatchedForeground": "Gray7",
           "hoveredBackground": "#FFFFFFED",
           "Reference.foreground": "Gray7"
@@ -786,7 +795,7 @@
           "brightness": 0.6
         }
       },
-      "FileHistory.Commit.selectedBranchBackground": "#28292C",
+      "FileHistory.Commit.selectedBranchBackground": "#151f2f",
       "MarkerPopup": {
         "borderColor": "Gray4"
       },
@@ -986,8 +995,9 @@
     "RunWidget" : {
       "foreground": "Gray12",
       "iconColor": "Gray12",
-      "runningBackground": "Green6",
+      "runningBackground": "#43454A99",
       "runningIconColor": "Gray12",
+      "stopBackground": "#43454A99",
       "hoverBackground": "#00000019",
       "pressedBackground": "#00000028"
     },

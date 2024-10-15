@@ -9,11 +9,12 @@
     "EditorHeaderBackground": "#28292C",
     "EditorHeaderUnderTabsBorderColor": "#28292C",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
-    "EditorBackground": "#1E1F22",
+    "EditorBackground": "#212225",
     "BorderColor": "#26282D",
     "SearchToolbarBorderColor": "#26282D",
     "SeparatorColor": "#26282D",
     "GrayBg": "#2B2D30",
+    "MenuBg": "#282A2D",
 
     "Gray1": "#28292C",
     "Gray2": "#28292C",
@@ -154,11 +155,19 @@
       "modifiedItemForeground": "Blue9"
     },
 
+    "ScrollBar": {
+      "Transparent": {
+        "thumbColor": "#191a1c60",
+        "thumbBorderColor": "#2B2D30",
+        "hoverThumbColor": "#191a1c99"
+      }
+    },
+
     "ActionButton": {
-      "hoverBackground": "#42444a99",
-      "hoverBorderColor": "#42444a99",
-      "pressedBackground": "#42444a99",
-      "pressedBorderColor": "#42444a99",
+      "hoverBackground": "#191a1c99",
+      "hoverBorderColor": "#191a1c99",
+      "pressedBackground": "#191a1c99",
+      "pressedBorderColor": "#191a1c99",
       "focusedBorderColor": "Blue6",
       "hoverSeparatorColor": "Gray6"
     },
@@ -374,24 +383,24 @@
       "selectionForeground": "Gray12",
       "selectionBackground": "Gray3",
       "transparentSelectionBackground": "#FFFFFF1A",
-      "background": "Gray3"
+      "background": "MenuBg"
     },
     "Menu": {
       "separatorColor": "Gray3",
       "borderColor": "Gray2",
-      "background": "GrayBg",
+      "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
     "MenuItem": {
-      "background": "GrayBg",
+      "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
     "PopupMenu": {
-      "background": "GrayBg",
+      "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
     "Popup": {
-      "background": "GrayBg",
+      "background": "MenuBg",
       "separatorColor": "#313438",
       "borderWidth": 1,
       "paintBorder": true,
@@ -717,7 +726,7 @@
       "Button": {
         "foreground": "Gray9",
         "selectedForeground": "Gray14",
-        "selectedBackground": "#42444a",
+        "selectedBackground": "#191a1c",
         "DragAndDrop" : {
           "stripeBackground" : "Gray2",
           "buttonDropBackground": "#35538F99",
@@ -774,9 +783,9 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "Gray1",
-          "selectionBackground": "Gray3",
-          "selectionInactiveBackground": "Gray3",
+          "currentBranchBackground": "#151f2f",
+          "selectionBackground": "#233b6a",
+          "selectionInactiveBackground": "#233b6a",
           "unmatchedForeground": "Gray7",
           "hoveredBackground": "#FFFFFFED",
           "Reference.foreground": "Gray7"
@@ -786,7 +795,7 @@
           "brightness": 0.6
         }
       },
-      "FileHistory.Commit.selectedBranchBackground": "Gray1",
+      "FileHistory.Commit.selectedBranchBackground": "#151f2f",
       "MarkerPopup": {
         "borderColor": "Gray4"
       },
@@ -986,8 +995,9 @@
     "RunWidget" : {
       "foreground": "Gray12",
       "iconColor": "Gray12",
-      "runningBackground": "Green6",
+      "runningBackground": "#191a1c99",
       "runningIconColor": "Gray12",
+      "stopBackground": "#191a1c99",
       "hoverBackground": "#00000019",
       "pressedBackground": "#00000028"
     },
