@@ -23,12 +23,12 @@
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes>
     <![CDATA[
-        <h3>2.5.5-6</h3>
+        <h3>2.5.6</h3>
         <ul>
             <li>Improved UIs and color schemes</li>
         </ul>
 
-        <h3>2.5.2-4</h3>
+        <h3>2.5.2-5</h3>
         <ul>
             <li>Improved color schemes</li>
         </ul>
@@ -52,13 +52,10 @@
 
         <!-- dark-blue -->
         <themeProvider id="gnome-dark-blue-mid" path="/theme/GnomeDarkBlueMid.theme.json"/>
-        <themeProvider id="gnome-dark-blue-hard" path="/theme/GnomeDarkBlueHard.theme.json"/>
         <themeProvider id="gnome-dark-blue-lite" path="/theme/GnomeDarkBlueLite.theme.json"/>
 
         <!-- dark-grey-->
-        <themeProvider id="gnome-dark-grey" path="/theme/GnomeDarkGrey.theme.json"/>
         <themeProvider id="gnome-dark-grey-mid" path="/theme/GnomeDarkGreyMid.theme.json"/>
-        <themeProvider id="gnome-dark-grey-hard" path="/theme/GnomeDarkGreyHard.theme.json"/>
         <themeProvider id="gnome-dark-grey-lite" path="/theme/GnomeDarkGreyLite.theme.json"/>
 
         <!-- default -->
