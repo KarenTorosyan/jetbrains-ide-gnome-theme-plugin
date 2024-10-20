@@ -6,19 +6,19 @@
   "editorScheme": "/scheme/GnomeDarkGrey.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#252525",
-    "EditorHeaderUnderTabsBorderColor": "#303030",
+    "EditorHeaderBackground": "#1c1c1c",
+    "EditorHeaderUnderTabsBorderColor": "#272727",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
-    "EditorBackground": "#212121",
-    "BorderColor": "#303030",
+    "EditorBackground": "#1E1E1E",
+    "BorderColor": "#262626",
     "SearchToolbarBorderColor": "#272727",
-    "SeparatorColor": "#272727",
-    "GrayBg": "#252525",
-    "MenuBg": "#222222",
+    "SeparatorColor": "#262626",
+    "GrayBg": "#1c1c1c",
+    "MenuBg": "#1f1f1f",
 
-    "Gray1": "#202020",
-    "Gray2": "#252525",
-    "Gray3": "#323232",
+    "Gray1": "#1c1c1c",
+    "Gray2": "#1c1c1c",
+    "Gray3": "#2f2f2f",
     "Gray4": "#3F4242",
     "Gray5": "#414444",
     "Gray6": "#5A5D63",
@@ -158,7 +158,7 @@
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "#4b4b4b88",
-        "thumbBorderColor": "#252525",
+        "thumbBorderColor": "#1c1c1c",
         "hoverThumbColor": "#4b4b4b99"
       }
     },
@@ -546,7 +546,7 @@
       "matchForeground": "Blue8",
       "Advertiser": {
         "foreground": "Gray7",
-        "background": "#272727"
+        "background": "#262626"
       }
     },
 

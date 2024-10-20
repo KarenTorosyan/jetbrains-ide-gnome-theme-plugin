@@ -2,26 +2,27 @@
   <metaInfo>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.2.3.0.0</property>
+    <property name="originalScheme">GNOME Dark-Blue Mid</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="69b36e" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
-    <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="ced0d6" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="252629" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="252629" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="252629" />
-    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="ced0d6" />
+    <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="bcbec4" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1c1d20" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1c1d20" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1c1d20" />
+    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="bcbec4" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="252629" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1c1d20" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
-    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="252629" />
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="1c1d20" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="252629" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1c1d20" />
     <option name="DELETED_LINES_COLOR" value="868a91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
-    <option name="DOCUMENTATION_COLOR" value="232427" />
+    <option name="DOCUMENTATION_COLOR" value="1e1f22" />
     <option name="DOC_COMMENT_GUIDE" value="394d3f" />
     <option name="DOC_COMMENT_LINK" value="3887a1" />
     <option name="ERROR_HINT" value="402929" />
@@ -50,19 +51,19 @@
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="868a91" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="cf87c8" />
     <option name="INDENT_GUIDE" value="313438" />
-    <option name="INFORMATION_HINT" value="232427" />
+    <option name="INFORMATION_HINT" value="1e1f22" />
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="393b40" />
     <option name="LINE_NUMBERS_COLOR" value="717379" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a1a3ab" />
-    <option name="LOOKUP_COLOR" value="232427" />
+    <option name="LOOKUP_COLOR" value="1e1f22" />
     <option name="METHOD_SEPARATORS_COLOR" value="43454a" />
     <option name="MODIFIED_LINES_COLOR" value="cf87c8" />
     <option name="NOTIFICATION_BACKGROUND" value="25324d" />
     <option name="PROMOTION_PANE" value="25324d" />
     <option name="QUESTION_HINT" value="25324d" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="232427" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="1e1f22" />
     <option name="RIGHT_MARGIN_COLOR" value="393b40" />
     <option name="SELECTED_INDENT_GUIDE" value="666870" />
     <option name="SELECTION_BACKGROUND" value="113c69" />
@@ -128,19 +129,19 @@
     </option>
     <option name="BASH.VAR_DEF">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="BASH.VAR_USE">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="BASH.VAR_USE_COMPOSED">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -169,7 +170,7 @@
     </option>
     <option name="BLOCK_TERMINAL_WHITE">
       <value>
-        <option name="FOREGROUND" value="ced0d6" />
+        <option name="FOREGROUND" value="bcbec4" />
       </value>
     </option>
     <option name="BLOCK_TERMINAL_YELLOW">
@@ -218,7 +219,7 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ced0d6" />
+        <option name="FOREGROUND" value="bcbec4" />
         <option name="BACKGROUND" value="0" />
       </value>
     </option>
@@ -265,7 +266,7 @@
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ced0d6" />
+        <option name="FOREGROUND" value="bcbec4" />
       </value>
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
@@ -287,7 +288,7 @@
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ced0d6" />
+        <option name="FOREGROUND" value="bcbec4" />
       </value>
     </option>
     <option name="CONSOLE_USER_INPUT">
@@ -433,7 +434,7 @@
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="df89d5" />
+        <option name="FOREGROUND" value="db86d1" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
@@ -468,7 +469,7 @@
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="b099ff" />
+        <option name="FOREGROUND" value="a190ea" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
@@ -478,7 +479,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="dc8ed7" />
+        <option name="FOREGROUND" value="cf87c8" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -510,12 +511,12 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="79cccc" />
+        <option name="FOREGROUND" value="7ac3c0" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="c1c07b" />
+        <option name="FOREGROUND" value="c5b277" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -559,7 +560,7 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="b099ff" />
+        <option name="FOREGROUND" value="a190ea" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -613,7 +614,7 @@
     </option>
     <option name="EDITORCONFIG_PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="EL.BOUNDS">
@@ -648,7 +649,7 @@
     </option>
     <option name="FTL_DIRECTIVE">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -681,12 +682,12 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="df89d5" />
+        <option name="FOREGROUND" value="db86d1" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="df89d5" />
+        <option name="FOREGROUND" value="db86d1" />
       </value>
     </option>
     <option name="HTTP_HEADER_FIELD_NAME">
@@ -767,7 +768,7 @@
     </option>
     <option name="JS.EXPORTED.FUNCTION">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
@@ -792,7 +793,7 @@
     </option>
     <option name="JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="JSONPATH.CONTEXT">
@@ -802,7 +803,7 @@
     </option>
     <option name="JSONPATH.IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="JSP_DIRECTIVE_NAME">
@@ -919,7 +920,7 @@
     </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ff6578" />
+        <option name="FOREGROUND" value="e56f7d" />
       </value>
     </option>
     <option name="LOG_EXPIRED_ENTRY">
@@ -1026,7 +1027,7 @@
     </option>
     <option name="MONGODB.JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="Map key">
@@ -1068,7 +1069,7 @@
     </option>
     <option name="PROPERTIES.KEY">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="PROPERTIES.VALID_STRING_ESCAPE">
@@ -1078,7 +1079,7 @@
     </option>
     <option name="PROTOTEXT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="PROTO_IDENTIFIER">
@@ -1116,7 +1117,7 @@
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_MIXIN">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="SASS_VARIABLE">
@@ -1151,7 +1152,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="bcbec4" />
-        <option name="BACKGROUND" value="202124" />
+        <option name="BACKGROUND" value="1e1f22" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1213,7 +1214,7 @@
     </option>
     <option name="VELOCITY_DIRECTIVE">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1266,18 +1267,18 @@
     </option>
     <option name="XML_PROLOGUE">
       <value>
-        <option name="FOREGROUND" value="df89d5" />
+        <option name="FOREGROUND" value="db86d1" />
       </value>
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="df89d5" />
+        <option name="FOREGROUND" value="db86d1" />
       </value>
     </option>
     <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="df89d5" />
+        <option name="FOREGROUND" value="db86d1" />
       </value>
     </option>
     <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
@@ -1288,7 +1289,7 @@
     </option>
     <option name="XPATH.XPATH_NAME">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="XPATH.XPATH_VARIABLE">
@@ -1304,7 +1305,7 @@
     </option>
     <option name="YAML_SCALAR_KEY">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
     <option name="YAML_SCALAR_LIST">
@@ -1349,7 +1350,7 @@
     </option>
     <option name="org.toml.KEY">
       <value>
-        <option name="FOREGROUND" value="8997d8" />
+        <option name="FOREGROUND" value="8c99dc" />
       </value>
     </option>
   </attributes>

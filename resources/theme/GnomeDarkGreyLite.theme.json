@@ -164,10 +164,10 @@
     },
 
     "ActionButton": {
-      "hoverBackground": "#191a1c99",
-      "hoverBorderColor": "#191a1c99",
-      "pressedBackground": "#191a1c99",
-      "pressedBorderColor": "#191a1c99",
+      "hoverBackground": "#48484899",
+      "hoverBorderColor": "#48484899",
+      "pressedBackground": "#48484899",
+      "pressedBorderColor": "#48484899",
       "focusedBorderColor": "Blue6",
       "hoverSeparatorColor": "Gray6"
     },
@@ -726,7 +726,7 @@
       "Button": {
         "foreground": "Gray9",
         "selectedForeground": "Gray14",
-        "selectedBackground": "#191a1c",
+        "selectedBackground": "#484848",
         "DragAndDrop" : {
           "stripeBackground" : "Gray2",
           "buttonDropBackground": "#35538F99",
