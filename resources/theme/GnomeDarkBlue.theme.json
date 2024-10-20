@@ -6,19 +6,19 @@
   "editorScheme": "/scheme/GnomeDarkBlue.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#252629",
-    "EditorHeaderUnderTabsBorderColor": "#2e3037",
+    "EditorHeaderBackground": "#1c1d20",
+    "EditorHeaderUnderTabsBorderColor": "#26282D",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
-    "EditorBackground": "#212225",
-    "BorderColor": "#2e3037",
+    "EditorBackground": "#1E1F22",
+    "BorderColor": "#26282D",
     "SearchToolbarBorderColor": "#26282D",
-    "SeparatorColor": "#2e3037",
-    "GrayBg": "#252629",
+    "SeparatorColor": "#26282D",
+    "GrayBg": "#1c1d20",
     "MenuBg": "#1f2023",
 
-    "Gray1": "#252629",
-    "Gray2": "#252629",
-    "Gray3": "#313237",
+    "Gray1": "#1c1d20",
+    "Gray2": "#1c1d20",
+    "Gray3": "#2f3035",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
     "Gray6": "#5A5D63",
@@ -158,7 +158,7 @@
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#252629",
+        "thumbBorderColor": "#1c1d20",
         "hoverThumbColor": "#4b4d5399"
       }
     },
@@ -546,7 +546,7 @@
       "matchForeground": "Blue8",
       "Advertiser": {
         "foreground": "Gray7",
-        "background": "#27282B"
+        "background": "#252529"
       }
     },
 

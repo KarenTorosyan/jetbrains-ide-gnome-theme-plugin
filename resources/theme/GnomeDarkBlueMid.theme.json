@@ -7,18 +7,18 @@
   "colors": {
 
     "EditorHeaderBackground": "#1c1d20",
-    "EditorHeaderUnderTabsBorderColor": "#26282D",
+    "EditorHeaderUnderTabsBorderColor": "#28292f",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
-    "EditorBackground": "#1E1F22",
-    "BorderColor": "#26282D",
-    "SearchToolbarBorderColor": "#26282D",
-    "SeparatorColor": "#26282D",
-    "GrayBg": "#1c1d20",
+    "EditorBackground": "#212225",
+    "BorderColor": "#28292f",
+    "SearchToolbarBorderColor": "#28292f",
+    "SeparatorColor": "#2e3037",
+    "GrayBg": "#232427",
     "MenuBg": "#1f2023",
 
     "Gray1": "#1c1d20",
     "Gray2": "#1c1d20",
-    "Gray3": "#2f3035",
+    "Gray3": "#313237",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
     "Gray6": "#5A5D63",
@@ -158,7 +158,7 @@
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#1c1d20",
+        "thumbBorderColor": "#232427",
         "hoverThumbColor": "#4b4d5399"
       }
     },
@@ -546,7 +546,7 @@
       "matchForeground": "Blue8",
       "Advertiser": {
         "foreground": "Gray7",
-        "background": "#252529"
+        "background": "#27282B"
       }
     },
 
@@ -631,8 +631,8 @@
     },
 
     "DefaultTabs": {
-      "borderColor": "BorderColor",
-      "background": "GrayBg"
+      "borderColor": "#1c1d20",
+      "background": "#292A2D"
     },
 
     "TabbedPane": {
@@ -715,9 +715,9 @@
     "ToolWindow": {
       "background": "GrayBg",
       "Header": {
-        "inactiveBackground": "GrayBg",
+        "inactiveBackground": "#202124",
         "font.size.offset": 0,
-        "borderColor": "BorderColor"
+        "borderColor": "GrayBg"
       },
       "HeaderTab": {
         "hoverInactiveBackground": "Gray3",

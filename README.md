@@ -9,16 +9,17 @@ Install from [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/24554-
 Select the theme in `Settings | Appearance & Behavior | Appearance | Theme`
 
 - GNOME Dark-Blue
-- GNOME Dark-Blue Soft
 - GNOME Dark-Blue Lite
+- GNOME Dark-Blue Mid
 - GNOME Dark-Blue Hard
 - GNOME Dark-Grey
-- GNOME Dark-Grey Soft
 - GNOME Dark-Grey Lite
 - GNOME Dark-Grey Mid
 - GNOME Dark-Grey Hard
 - GNOME Light
 
 ![Gnome Dark-Blue](screenshots/dark-blue.png)
+
+![Gnome Dark-Blue](screenshots/dark-blue-lite.png)
 
 ![Gnome Light](screenshots/light.png)
