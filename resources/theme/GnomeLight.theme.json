@@ -28,7 +28,6 @@
     "Gray12": "#DFE1E5",
     "Gray13": "#f2f2f2",
     "Gray14": "#FFFFFF",
-    "windowsPopupBorder": "#B9BDC9",
 
     "Blue1": "#2E55A3",
     "Blue2": "#315FBD",
@@ -295,6 +294,7 @@
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.9,
       "background": "EditorHeaderBackground",
+      "borderColor": "BorderColor",
       "hoverBackground": "#FFFFFF00",
       "hoverInactiveBackground": "#FFFFFF00",
       "inactiveColoredFileBackground": "#FFFFFF80",
@@ -362,15 +362,15 @@
     },
 
     "Menu": {
-      "background": "Gray14",
+      "background": "Gray13",
       "borderColor": {
         "os.default": "Gray12",
-        "os.windows": "windowsPopupBorder"
+        "os.windows": "#B9BDC9"
       }
     },
 
     "PopupMenu": {
-      "background": "Gray14"
+      "background": "Gray13"
     },
 
     "Review": {
@@ -387,7 +387,7 @@
       }
     },
 
-    "MenuItem.background": "Gray14",
+    "MenuItem.background": "Gray13",
 
     "MainMenu": {
       "background": "Gray13",
@@ -497,9 +497,11 @@
     },
 
     "Popup": {
-      "background": "Gray14",
-      "borderColor": "windowsPopupBorder",
+      "background": "Gray13",
+      "borderColor": "BorderColor",
+      "inactiveBorderColor": "BorderColor",
       "Advertiser": {
+        "borderColor": "BorderColor",
         "foreground": "Gray7",
         "background": "Gray13",
         "borderColor": "Gray13",

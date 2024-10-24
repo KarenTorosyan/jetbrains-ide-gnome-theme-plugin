@@ -12,7 +12,7 @@
     "EditorBackground": "#212121",
     "BorderColor": "#252525",
     "SearchToolbarBorderColor": "#272727",
-    "SeparatorColor": "#272727",
+    "SeparatorColor": "#373737",
     "GrayBg": "#2B2B2B",
     "MenuBg": "#292929",
 
@@ -386,7 +386,7 @@
       "background": "MenuBg"
     },
     "Menu": {
-      "separatorColor": "Gray3",
+      "separatorColor": "SeparatorColor",
       "borderColor": "Gray2",
       "background": "MenuBg",
       "selectionBackground": "Gray3"
@@ -401,15 +401,15 @@
     },
     "Popup": {
       "background": "MenuBg",
-      "separatorColor": "#313438",
+      "separatorColor": "SeparatorColor",
       "borderWidth": 1,
       "paintBorder": true,
-      "borderColor": "Gray4",
-      "inactiveBorderColor": "Gray3",
+      "borderColor": "BorderColor",
+      "inactiveBorderColor": "BorderColor",
       "Advertiser": {
         "foreground": "Gray8",
         "background": "Gray3",
-        "borderColor": "Gray3",
+        "borderColor": "BorderColor",
         "fontSizeOffset": -1
       },
       "Header": {
@@ -726,7 +726,7 @@
       "Button": {
         "foreground": "Gray9",
         "selectedForeground": "Gray14",
-        "selectedBackground": "#484848",
+        "selectedBackground": "#484848AA",
         "DragAndDrop" : {
           "stripeBackground" : "Gray2",
           "buttonDropBackground": "#35538F99",
