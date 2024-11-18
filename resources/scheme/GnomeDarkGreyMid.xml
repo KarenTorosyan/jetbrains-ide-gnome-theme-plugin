@@ -1,8 +1,12 @@
 <scheme name="GNOME Dark-Grey Mid" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">idea</property>
-    <property name="ideVersion">2024.2.3.0.0</property>
+    <property name="ideVersion">2024.3.0.0</property>
   </metaInfo>
+  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="69b36e" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
@@ -11,9 +15,12 @@
     <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1e1e1e" />
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1e1e1e" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="bcbec4" />
-    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="" />
+    <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="c85160" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_END" value="1e1e1e" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_START" value="1e1e1e" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1e1e1e" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
+    <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="26282d" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="1e1e1e" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
@@ -67,10 +74,12 @@
     <option name="SELECTED_INDENT_GUIDE" value="666870" />
     <option name="SELECTION_BACKGROUND" value="113c69" />
     <option name="SELECTION_FOREGROUND" value="bcbec4" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="ffffff4d" />
-    <option name="ScrollBar.Mac.thumbColor" value="ffffff26" />
-    <option name="ScrollBar.hoverThumbColor" value="4b4b4b99" />
-    <option name="ScrollBar.thumbColor" value="4b4b4b88" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="4b4d5399" />
+    <option name="ScrollBar.Mac.thumbColor" value="4b4d5388" />
+    <option name="ScrollBar.Mac.thumbBorderColor" value="1c1d20" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="4b4d5399" />
+    <option name="ScrollBar.Transparent.thumbColor" value="4b4d5388" />
+    <option name="ScrollBar.Transparent.thumbBorderColor" value="1c1d20" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="2f5194" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="2d416b" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="283754" />
@@ -149,6 +158,12 @@
         <option name="FOREGROUND" value="0" />
       </value>
     </option>
+    <option name="BLOCK_TERMINAL_BLACK_BRIGHT">
+      <value>
+        <option name="FOREGROUND" value="4e5157" />
+        <option name="BACKGROUND" value="2e3033" />
+      </value>
+    </option>
     <option name="BLOCK_TERMINAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="257dfa" />
@@ -222,22 +237,34 @@
         <option name="BACKGROUND" value="0" />
       </value>
     </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="3399ff" />
+        <option name="BACKGROUND" value="1aafff" />
+      </value>
+    </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="31a1c5" />
-        <option name="BACKGROUND" value="245980" />
+        <option name="FOREGROUND" value="5594fa" />
+        <option name="BACKGROUND" value="134ebf" />
+      </value>
+    </option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="40ffe9" />
+        <option name="BACKGROUND" value="22e5cf" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="2ea2a2" />
-        <option name="BACKGROUND" value="154f4f" />
+        <option name="FOREGROUND" value="47ccbd" />
+        <option name="BACKGROUND" value="8576" />
       </value>
     </option>
     <option name="CONSOLE_DARKGRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="808080" />
-        <option name="BACKGROUND" value="424242" />
+        <option name="FOREGROUND" value="4e5157" />
+        <option name="BACKGROUND" value="2e3033" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -245,22 +272,28 @@
         <option name="FOREGROUND" value="ff6578" />
       </value>
     </option>
-    <option name="CONSOLE_GRAY_OUTPUT">
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="959595" />
-        <option name="BACKGROUND" value="616161" />
+        <option name="FOREGROUND" value="67ff59" />
+        <option name="BACKGROUND" value="48e539" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="15a24d" />
-        <option name="BACKGROUND" value="39511f" />
+        <option name="FOREGROUND" value="56d18a" />
+        <option name="BACKGROUND" value="288720" />
+      </value>
+    </option>
+    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="d970ff" />
+        <option name="BACKGROUND" value="b459ff" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="9c61b2" />
-        <option name="BACKGROUND" value="5c4069" />
+        <option name="FOREGROUND" value="c092fa" />
+        <option name="BACKGROUND" value="843ae0" />
       </value>
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
@@ -275,14 +308,14 @@
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="c75f5f" />
-        <option name="BACKGROUND" value="b82421" />
+        <option name="FOREGROUND" value="ff6b7a" />
+        <option name="BACKGROUND" value="ff475a" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff6578" />
-        <option name="BACKGROUND" value="772e2c" />
+        <option name="BACKGROUND" value="ba3f4b" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -292,7 +325,7 @@
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="49b578" />
+        <option name="FOREGROUND" value="56d18a" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
@@ -303,14 +336,14 @@
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="c8a165" />
-        <option name="BACKGROUND" value="a87b00" />
+        <option name="FOREGROUND" value="ffec1a" />
+        <option name="BACKGROUND" value="ffbf00" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="b7b466" />
-        <option name="BACKGROUND" value="5c4f17" />
+        <option name="FOREGROUND" value="d0c97f" />
+        <option name="BACKGROUND" value="a66900" />
       </value>
     </option>
     <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
@@ -356,7 +389,7 @@
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="cf87c8" />
+        <option name="FOREGROUND" value="d587c8" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
@@ -382,6 +415,11 @@
       <value>
         <option name="FOREGROUND" value="b2ae60" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="a190ea" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -433,7 +471,7 @@
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="db86d1" />
+        <option name="FOREGROUND" value="dc87d2" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
@@ -478,7 +516,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="cf87c8" />
+        <option name="FOREGROUND" value="d587c8" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -681,12 +719,12 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="db86d1" />
+        <option name="FOREGROUND" value="dc87d2" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="db86d1" />
+        <option name="FOREGROUND" value="dc87d2" />
       </value>
     </option>
     <option name="HTTP_HEADER_FIELD_NAME">
@@ -934,7 +972,7 @@
     </option>
     <option name="LOG_VERBOSE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="51b7d0" />
+        <option name="FOREGROUND" value="5594fa" />
       </value>
     </option>
     <option name="LOG_WARNING_OUTPUT">
@@ -1016,7 +1054,7 @@
     </option>
     <option name="MN_EL.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="cf87c8" />
+        <option name="FOREGROUND" value="d587c8" />
       </value>
     </option>
     <option name="MN_EL.QUALIFIED_TYPE">
@@ -1185,12 +1223,12 @@
     </option>
     <option name="TS.TYPE_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="cf87c8" />
+        <option name="FOREGROUND" value="d587c8" />
       </value>
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="cf87c8" />
+        <option name="FOREGROUND" value="d587c8" />
       </value>
     </option>
     <option name="TYPO">
@@ -1250,10 +1288,14 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f37780" />
+        <option name="FOREGROUND" value="ff6578" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="a190ea" />
+      </value>
+    </option>
     <option name="XML_CUSTOM_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="2fbaa3" />
@@ -1266,18 +1308,18 @@
     </option>
     <option name="XML_PROLOGUE">
       <value>
-        <option name="FOREGROUND" value="db86d1" />
+        <option name="FOREGROUND" value="dc87d2" />
       </value>
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="db86d1" />
+        <option name="FOREGROUND" value="dc87d2" />
       </value>
     </option>
     <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="db86d1" />
+        <option name="FOREGROUND" value="dc87d2" />
       </value>
     </option>
     <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />

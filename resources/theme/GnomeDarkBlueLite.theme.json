@@ -160,6 +160,11 @@
         "thumbColor": "#191a1c60",
         "thumbBorderColor": "#2B2D30",
         "hoverThumbColor": "#191a1c99"
+      },
+      "Mac": {
+        "thumbColor": "#191a1c60",
+        "thumbBorderColor": "#2B2D30",
+        "hoverThumbColor": "#191a1c99"
       }
     },
 

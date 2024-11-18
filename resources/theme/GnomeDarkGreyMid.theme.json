@@ -9,7 +9,7 @@
     "EditorHeaderBackground": "#1E1E1E",
     "EditorHeaderUnderTabsBorderColor": "#2C2C2C",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
-    "EditorBackground": "#212121",
+    "EditorBackground": "#1E1E1E",
     "BorderColor": "#2C2C2C",
     "SearchToolbarBorderColor": "#2C2C2C",
     "SeparatorColor": "#323232",
@@ -157,6 +157,11 @@
 
     "ScrollBar": {
       "Transparent": {
+        "thumbColor": "#4b4b4b88",
+        "thumbBorderColor": "#252525",
+        "hoverThumbColor": "#4b4b4b99"
+      },
+      "Mac": {
         "thumbColor": "#4b4b4b88",
         "thumbBorderColor": "#252525",
         "hoverThumbColor": "#4b4b4b99"

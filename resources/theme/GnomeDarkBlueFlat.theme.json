@@ -1,23 +1,23 @@
 {
-  "name": "GNOME Dark-Blue",
+  "name": "GNOME Dark-Blue Flat",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "gnome-dark-blue",
-  "editorScheme": "/scheme/GnomeDarkBlue.xml",
+  "nameKey": "gnome-dark-blue-flat",
+  "editorScheme": "scheme/GnomeDarkBlueFlat.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#1c1d20",
+    "EditorHeaderBackground": "#1e1f22",
     "EditorHeaderUnderTabsBorderColor": "#26282D",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
-    "EditorBackground": "#1E1F22",
+    "EditorBackground": "#1e1f22",
     "BorderColor": "#26282D",
     "SearchToolbarBorderColor": "#26282D",
     "SeparatorColor": "#26282D",
-    "GrayBg": "#1c1d20",
-    "MenuBg": "#191a1c",
+    "GrayBg": "#1e1f22",
+    "MenuBg": "#1c1d20",
 
-    "Gray1": "#1c1d20",
-    "Gray2": "#1c1d20",
+    "Gray1": "#1e1f22",
+    "Gray2": "#1e1f22",
     "Gray3": "#2f3035",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
@@ -158,12 +158,12 @@
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#1c1d20",
+        "thumbBorderColor": "#1e1f22",
         "hoverThumbColor": "#4b4d5399"
       },
       "Mac": {
         "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#1c1d20",
+        "thumbBorderColor": "#1e1f22",
         "hoverThumbColor": "#4b4d5399"
       }
     },

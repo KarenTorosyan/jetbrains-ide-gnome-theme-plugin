@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>2.5.7</version>
+    <version>2.5.8</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -23,6 +23,16 @@
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes>
     <![CDATA[
+        <div>
+            <b>v2.5.8</b>
+        </div>
+        <ul>
+            <li>Improved old(stable) terminal and console colors</li>
+            <li>Improved tag,interface colors</li>
+            <li>Improved UI and Editor scrollbars</li>
+            <li>New Dark-Blue Flat mode</li>
+        </ul>
+        <br>
         <div>
             <b>v2.5.7</b>
         </div>
@@ -64,6 +74,7 @@
         <themeProvider id="gnome-light" path="/theme/GnomeLight.theme.json"/>
 
         <!-- dark-blue -->
+        <themeProvider id="gnome-dark-blue-flat" path="/theme/GnomeDarkBlueFlat.theme.json"/>
         <themeProvider id="gnome-dark-blue-mid" path="/theme/GnomeDarkBlueMid.theme.json"/>
         <themeProvider id="gnome-dark-blue-lite" path="/theme/GnomeDarkBlueLite.theme.json"/>
 
