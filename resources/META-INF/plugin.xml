@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>2.5.8</version>
+    <version>2.5.9</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -17,12 +17,20 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>This plugin presents Dark and Light UI variants with better integration with the GNOME Adwaita theme for Jetbrains IDEs with color schemes for IntelliJ IDEA.</description>
+    <description>Themes with better integration with the GNOME Adwaita theme for Jetbrains IDEs with color schemes for IntelliJ IDEA.</description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes>
     <![CDATA[
+        <div>
+            <b>v2.5.9</b>
+        </div>
+        <ul>
+            <li>Improved UIs, some themes have been renamed</li>
+            <li>Improved comment-text,caret-row,keyword,number,java,kotlin,xml,sql,markdown colors</li>
+        </ul>
+        <br>
         <div>
             <b>v2.5.8</b>
         </div>
@@ -75,12 +83,12 @@
 
         <!-- dark-blue -->
         <themeProvider id="gnome-dark-blue-flat" path="/theme/GnomeDarkBlueFlat.theme.json"/>
-        <themeProvider id="gnome-dark-blue-mid" path="/theme/GnomeDarkBlueMid.theme.json"/>
-        <themeProvider id="gnome-dark-blue-lite" path="/theme/GnomeDarkBlueLite.theme.json"/>
+        <themeProvider id="gnome-dark-blue-soft" path="/theme/GnomeDarkBlueSoft.theme.json"/>
+        <themeProvider id="gnome-dark-blue-bright" path="/theme/GnomeDarkBlueBright.theme.json"/>
 
         <!-- dark-grey-->
-        <themeProvider id="gnome-dark-grey-mid" path="/theme/GnomeDarkGreyMid.theme.json"/>
-        <themeProvider id="gnome-dark-grey-lite" path="/theme/GnomeDarkGreyLite.theme.json"/>
+        <themeProvider id="gnome-dark-grey-soft" path="/theme/GnomeDarkGreySoft.theme.json"/>
+        <themeProvider id="gnome-dark-grey-bright" path="/theme/GnomeDarkGreyBright.theme.json"/>
 
         <!-- default -->
         <themeProvider id="gnome-dark-blue" path="/theme/GnomeDarkBlue.theme.json"/>

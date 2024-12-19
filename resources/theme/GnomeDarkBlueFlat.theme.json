@@ -3,21 +3,22 @@
   "dark": true,
   "author": "Karen Torosyan",
   "nameKey": "gnome-dark-blue-flat",
-  "editorScheme": "scheme/GnomeDarkBlueFlat.xml",
+  "editorScheme": "/scheme/GnomeDarkBlueFlat.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#1e1f22",
+    "EditorHeaderBackground": "#212225",
     "EditorHeaderUnderTabsBorderColor": "#26282D",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
-    "EditorBackground": "#1e1f22",
-    "BorderColor": "#26282D",
+    "EditorBackground": "#212225",
+    "BorderColor": "#2A2C31",
     "SearchToolbarBorderColor": "#26282D",
-    "SeparatorColor": "#26282D",
-    "GrayBg": "#1e1f22",
-    "MenuBg": "#1c1d20",
+    "SearchBackground": "#1f2023",
+    "SeparatorColor": "#27292E",
+    "GrayBg": "#212225",
+    "MenuBg": "#1e1f22",
 
-    "Gray1": "#1e1f22",
-    "Gray2": "#1e1f22",
+    "Gray1": "#212225",
+    "Gray2": "#212225",
     "Gray3": "#2f3035",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
@@ -26,8 +27,8 @@
     "Gray8": "#868A91",
     "Gray9": "#9DA0A8",
     "Gray10": "#B4B8BF",
-    "Gray11": "#CED0D6",
-    "Gray12": "#CED0D6",
+    "Gray11": "#C7C9CE",
+    "Gray12": "#C7C9CE",
     "Gray13": "#F0F1F2",
     "Gray14": "#FFFFFF",
 
@@ -133,7 +134,7 @@
       "disabledBackground": "Gray2",
       "disabledBorderColor": "Gray4",
 
-      "selectionBackground": "Gray3",
+      "selectionBackground": "Blue2",
       "lightSelectionBackground": "Gray3",
       "hoverBackground": "Gray3",
       "selectionForeground": "Gray12",
@@ -149,7 +150,7 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "SeparatorColor",
+      "separatorColor": "#2A2C32",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
@@ -158,12 +159,12 @@
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#1e1f22",
+        "thumbBorderColor": "#212225",
         "hoverThumbColor": "#4b4d5399"
       },
       "Mac": {
         "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#1e1f22",
+        "thumbBorderColor": "#212225",
         "hoverThumbColor": "#4b4d5399"
       }
     },
@@ -328,14 +329,14 @@
       "inactiveColoredFileBackground": "#1E1F2280",
       "underlinedTabBackground": "EditorHeaderBackground",
       "underTabsBorderColor": "EditorHeaderUnderTabsBorderColor",
-      "borderColor": "EditorHeaderBackground",
-      "inactiveUnderlineColor": "EditorHeaderTabSelectedBorderColor",
+      "borderColor": "BorderColor",
+      "inactiveUnderlineColor": "#48484F",
       "underlineColor": "EditorHeaderTabSelectedBorderColor"
     },
 
     "Editor": {
       "SearchField" : {
-        "background": "EditorBackground"
+        "background": "SearchBackground"
       },
 
       "Toolbar" : {
@@ -392,7 +393,7 @@
     },
     "Menu": {
       "separatorColor": "SeparatorColor",
-      "borderColor": "MenuBg",
+      "borderColor": "BorderColor",
       "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
@@ -413,7 +414,7 @@
       "inactiveBorderColor": "BorderColor",
       "Advertiser": {
         "foreground": "Gray9",
-        "background": "Gray3",
+        "background": "MenuBg",
         "borderColor": "BorderColor",
         "fontSizeOffset": -1
       },
@@ -472,7 +473,7 @@
 
     "Notification": {
       "background": "Gray3",
-      "borderColor": "Gray4",
+      "borderColor": "BorderColor",
       "foreground": "Gray13",
       "linkForeground": "Blue9",
       "iconHoverBackground": "#FFFFFF1A",
@@ -544,14 +545,15 @@
       }
     },
 
-    "ComplexPopup.Header.background": "Gray3",
+    "ComplexPopup.Header.background": "MenuBg",
 
     "CompletionPopup": {
       "foreground": "Gray10",
       "matchForeground": "Blue8",
+      "selectionBackground": "Gray3",
       "Advertiser": {
         "foreground": "Gray7",
-        "background": "#252529"
+        "background": "BorderColor"
       }
     },
 
@@ -788,8 +790,8 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "#151f2f",
-          "selectionBackground": "#233b6a",
+          "currentBranchBackground": "#283044",
+          "selectionBackground": "Blue2",
           "selectionInactiveBackground": "#233b6a",
           "unmatchedForeground": "Gray7",
           "hoveredBackground": "#FFFFFFED",
@@ -1000,9 +1002,8 @@
     "RunWidget" : {
       "foreground": "Gray12",
       "iconColor": "Gray12",
-      "runningBackground": "#43454A99",
-      "runningIconColor": "Gray12",
-      "stopBackground": "#43454A99",
+      "runningBackground": "#6dc17499",
+      "stopBackground": "#ff555599",
       "hoverBackground": "#00000019",
       "pressedBackground": "#00000028"
     },

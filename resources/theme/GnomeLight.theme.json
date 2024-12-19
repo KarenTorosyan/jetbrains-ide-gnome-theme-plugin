@@ -300,7 +300,7 @@
       "inactiveColoredFileBackground": "#FFFFFF80",
       "underlinedTabBackground": "EditorHeaderBackground",
       "underTabsBorderColor": "EditorHeaderUnderTabsBorderColor",
-      "inactiveUnderlineColor": "EditorHeaderTabSelectedBorderColor"
+      "inactiveUnderlineColor": "#c0c6d8"
     },
 
     "Editor": {
@@ -450,7 +450,7 @@
 
     "Notification": {
       "background": "Gray14",
-      "borderColor": "Gray10",
+      "borderColor": "BorderColor",
       "foreground": "Gray1",
       "linkForeground": "Blue2",
       "iconHoverBackground": "#0000000D",
