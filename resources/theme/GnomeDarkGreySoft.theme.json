@@ -8,14 +8,15 @@
 
     "EditorHeaderBackground": "#1E1E1E",
     "EditorHeaderUnderTabsBorderColor": "#2C2C2C",
-    "EditorHeaderTabSelectedBorderColor": "#238E82",
+    "EditorHeaderTabSelectedBorderColor": "#63945e",
     "EditorBackground": "#1E1E1E",
     "BorderColor": "#2C2C2C",
     "SearchToolbarBorderColor": "#2C2C2C",
-    "SearchBackground": "#303030",
+    "SearchBackground": "#1E1E1E",
     "SeparatorColor": "#2D2D2D",
     "GrayBg": "#252525",
     "MenuBg": "#222222",
+    "PopupBorderColor": "#2D2D2D",
 
     "Gray1": "#1E1E1E",
     "Gray2": "#1E1E1E",
@@ -150,7 +151,7 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "#272727",
+      "separatorColor": "#2C2C2C",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
@@ -393,7 +394,7 @@
     },
     "Menu": {
       "separatorColor": "SeparatorColor",
-      "borderColor": "Gray2",
+      "borderColor": "SeparatorColor",
       "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
@@ -410,7 +411,7 @@
       "separatorColor": "SeparatorColor",
       "borderWidth": 1,
       "paintBorder": true,
-      "borderColor": "BorderColor",
+      "borderColor": "PopupBorderColor",
       "inactiveBorderColor": "BorderColor",
       "Advertiser": {
         "foreground": "Gray8",

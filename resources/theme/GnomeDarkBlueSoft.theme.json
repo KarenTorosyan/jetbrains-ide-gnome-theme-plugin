@@ -6,19 +6,20 @@
   "editorScheme": "/scheme/GnomeDarkBlueFlat.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#232427",
+    "EditorHeaderBackground": "#1e1f22",
     "EditorHeaderUnderTabsBorderColor": "#2c2e32",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
     "EditorBackground": "#212225",
     "BorderColor": "#2c2e32",
     "SearchToolbarBorderColor": "#25272C",
-    "SearchBackground": "#303034",
+    "SearchBackground": "#1e1f22",
     "SeparatorColor": "#2c2e32",
     "GrayBg": "#232427",
     "MenuBg": "#232427",
+    "PopupBorderColor": "#2c2e32",
 
-    "Gray1": "#1c1d20",
-    "Gray2": "#1c1d20",
+    "Gray1": "#1e1f22",
+    "Gray2": "#1e1f22",
     "Gray3": "#2f3035",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
@@ -410,7 +411,7 @@
       "separatorColor": "SeparatorColor",
       "borderWidth": 1,
       "paintBorder": true,
-      "borderColor": "BorderColor",
+      "borderColor": "PopupBorderColor",
       "inactiveBorderColor": "BorderColor",
       "Advertiser": {
         "foreground": "Gray9",

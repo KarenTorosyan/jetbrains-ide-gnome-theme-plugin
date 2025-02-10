@@ -16,6 +16,7 @@
     "SeparatorColor": "#393B40",
     "GrayBg": "#2B2D30",
     "MenuBg": "#282A2D",
+    "PopupBorderColor": "#393B40",
 
     "Gray1": "#1f2023",
     "Gray2": "#1f2023",
@@ -150,7 +151,7 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "#26282D",
+      "separatorColor": "#2A2D32",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
@@ -158,14 +159,14 @@
 
     "ScrollBar": {
       "Transparent": {
-        "thumbColor": "#191a1c60",
+        "thumbColor": "#4a4b5199",
         "thumbBorderColor": "#2B2D30",
-        "hoverThumbColor": "#191a1c99"
+        "hoverThumbColor": "#4a4b5199"
       },
       "Mac": {
-        "thumbColor": "#191a1c60",
+        "thumbColor": "#4a4b5199",
         "thumbBorderColor": "#2B2D30",
-        "hoverThumbColor": "#191a1c99"
+        "hoverThumbColor": "#4a4b5199"
       }
     },
 
@@ -410,11 +411,11 @@
       "separatorColor": "SeparatorColor",
       "borderWidth": 1,
       "paintBorder": true,
-      "borderColor": "BorderColor",
+      "borderColor": "PopupBorderColor",
       "inactiveBorderColor": "BorderColor",
       "Advertiser": {
         "foreground": "Gray8",
-        "background": "Gray3",
+        "background": "MenuBg",
         "borderColor": "BorderColor",
         "fontSizeOffset": -1
       },
@@ -545,7 +546,7 @@
       }
     },
 
-    "ComplexPopup.Header.background": "Gray3",
+    "ComplexPopup.Header.background": "MenuBg",
 
     "CompletionPopup": {
       "foreground": "Gray10",

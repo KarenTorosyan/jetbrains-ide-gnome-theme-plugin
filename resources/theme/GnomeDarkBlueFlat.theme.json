@@ -16,6 +16,7 @@
     "SeparatorColor": "#27292E",
     "GrayBg": "#212225",
     "MenuBg": "#1e1f22",
+    "PopupBorderColor": "#27292E",
 
     "Gray1": "#212225",
     "Gray2": "#212225",
@@ -410,7 +411,7 @@
       "separatorColor": "SeparatorColor",
       "borderWidth": 1,
       "paintBorder": true,
-      "borderColor": "BorderColor",
+      "borderColor": "PopupBorderColor",
       "inactiveBorderColor": "BorderColor",
       "Advertiser": {
         "foreground": "Gray9",

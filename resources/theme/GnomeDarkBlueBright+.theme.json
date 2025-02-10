@@ -1,26 +1,27 @@
 {
-  "name": "GNOME Dark-Blue",
+  "name": "GNOME Dark-Blue Bright+",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "gnome-dark-blue",
-  "editorScheme": "/scheme/GnomeDarkBlue.xml",
+  "nameKey": "gnome-dark-blue-bright+",
+  "editorScheme": "/scheme/GnomeDarkBlueBright+.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#1c1d20",
-    "EditorHeaderUnderTabsBorderColor": "#26282D",
+    "EditorHeaderBackground": "#28292c",
+    "EditorHeaderBorder": "#222429",
+    "EditorHeaderUnderTabsBorderColor": "#222429",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
     "EditorBackground": "#212225",
-    "BorderColor": "#26282D",
-    "SearchToolbarBorderColor": "#26282D",
-    "SearchBackground": "#1E1F22",
-    "SeparatorColor": "#2A2B31",
-    "GrayBg": "#1c1d20",
-    "MenuBg": "#1d1e21",
-    "PopupBorderColor": "#2A2B31",
+    "BorderColor": "#222429",
+    "SearchToolbarBorderColor": "#222429",
+    "SearchBackground": "#212225",
+    "SeparatorColor": "#393B40",
+    "GrayBg": "#2B2D30",
+    "MenuBg": "#282A2D",
+    "PopupBorderColor": "#393B40",
 
-    "Gray1": "#1c1d20",
-    "Gray2": "#1c1d20",
-    "Gray3": "#2f3035",
+    "Gray1": "#28292c",
+    "Gray2": "#28292c",
+    "Gray3": "#393B40",
     "Gray4": "#43454A",
     "Gray5": "#4E5157",
     "Gray6": "#5A5D63",
@@ -28,8 +29,8 @@
     "Gray8": "#868A91",
     "Gray9": "#9DA0A8",
     "Gray10": "#B4B8BF",
-    "Gray11": "#C2C4CA",
-    "Gray12": "#C2C4CA",
+    "Gray11": "#CED0D6",
+    "Gray12": "#CED0D6",
     "Gray13": "#F0F1F2",
     "Gray14": "#FFFFFF",
 
@@ -151,7 +152,7 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "#2A2C32",
+      "separatorColor": "#2A2D32",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
@@ -159,14 +160,14 @@
 
     "ScrollBar": {
       "Transparent": {
-        "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#1c1d20",
-        "hoverThumbColor": "#4b4d5399"
+        "thumbColor": "#4a4b5199",
+        "thumbBorderColor": "#2B2D30",
+        "hoverThumbColor": "#4a4b5199"
       },
       "Mac": {
-        "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#1c1d20",
-        "hoverThumbColor": "#4b4d5399"
+        "thumbColor": "#4a4b5199",
+        "thumbBorderColor": "#2B2D30",
+        "hoverThumbColor": "#4a4b5199"
       }
     },
 
@@ -330,7 +331,7 @@
       "inactiveColoredFileBackground": "#1E1F2280",
       "underlinedTabBackground": "EditorHeaderBackground",
       "underTabsBorderColor": "EditorHeaderUnderTabsBorderColor",
-      "borderColor": "BorderColor",
+      "borderColor": "EditorHeaderBorder",
       "inactiveUnderlineColor": "#48484F",
       "underlineColor": "EditorHeaderTabSelectedBorderColor"
     },
@@ -394,7 +395,7 @@
     },
     "Menu": {
       "separatorColor": "SeparatorColor",
-      "borderColor": "BorderColor",
+      "borderColor": "SeparatorColor",
       "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
@@ -414,7 +415,7 @@
       "borderColor": "PopupBorderColor",
       "inactiveBorderColor": "BorderColor",
       "Advertiser": {
-        "foreground": "Gray9",
+        "foreground": "Gray8",
         "background": "MenuBg",
         "borderColor": "BorderColor",
         "fontSizeOffset": -1
@@ -494,7 +495,7 @@
         "informativeForeground": "Gray12",
 
         "errorBackground": "Red3",
-        "errorBorderColor": "#432829",
+        "errorBorderColor": "Red4",
         "warningBackground": "Yellow1",
         "warningBorderColor": "Yellow2",
         "informativeBackground": "Green1",
@@ -640,7 +641,7 @@
 
     "DefaultTabs": {
       "borderColor": "BorderColor",
-      "background": "GrayBg"
+      "background": "#313337"
     },
 
     "TabbedPane": {
@@ -723,7 +724,7 @@
     "ToolWindow": {
       "background": "GrayBg",
       "Header": {
-        "inactiveBackground": "GrayBg",
+        "inactiveBackground": "#28292c",
         "font.size.offset": 0,
         "borderColor": "BorderColor"
       },
@@ -733,7 +734,7 @@
       },
       "Button": {
         "foreground": "Gray9",
-        "selectedForeground": "Gray13",
+        "selectedForeground": "Gray14",
         "selectedBackground": "#43454AAA",
         "DragAndDrop" : {
           "stripeBackground" : "Gray2",

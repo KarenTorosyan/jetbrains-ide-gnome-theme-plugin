@@ -12,21 +12,21 @@
     <option name="ADDED_LINES_COLOR" value="69b36e" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="bcbec4" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1c1d20" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1c1d20" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1c1d20" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="212225" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="212225" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="212225" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="bcbec4" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="c85160" />
-    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_END" value="1c1d20" />
-    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_START" value="1c1d20" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1c1d20" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_END" value="212225" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_START" value="212225" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="212225" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="26282d" />
-    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="1c1d20" />
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="212225" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="27282e" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1c1d20" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1e1f22" />
     <option name="DELETED_LINES_COLOR" value="868a91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
     <option name="DOCUMENTATION_COLOR" value="212225" />

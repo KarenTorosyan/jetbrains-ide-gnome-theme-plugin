@@ -12,17 +12,17 @@
     <option name="ADDED_LINES_COLOR" value="69b36e" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="bcbec4" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="28292c" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="28292c" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="28292c" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="212225" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="212225" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="212225" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="bcbec4" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="c85160" />
-    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_END" value="28292c" />
-    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_START" value="28292c" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="28292c" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_END" value="212225" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_START" value="212225" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="212225" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="26282d" />
-    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="28292c" />
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="212225" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="27282e" />
@@ -49,7 +49,7 @@
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="89beef" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="89beef" />
     <option name="FILESTATUS_RENAMED" value="89beef" />
-    <option name="FILESTATUS_UNKNOWN" value="bebd7c" />
+    <option name="FILESTATUS_UNKNOWN" value="e38f7a" />
     <option name="FILESTATUS_addedOutside" value="6fc389" />
     <option name="FILESTATUS_changelistConflict" value="da8086" />
     <option name="FILESTATUS_modifiedOutside" value="89beef" />

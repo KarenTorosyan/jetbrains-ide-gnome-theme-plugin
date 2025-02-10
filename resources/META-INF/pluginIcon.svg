@@ -1,7 +1,14 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10.548 10.452L20 1L29.548 10.548L20 20L10.548 10.452Z" fill="#7D8AC7"/>
-<path d="M10.5019 29.5019L20 20L29.452 29.548L20 39L10.5019 29.5019Z" fill="#70C1B3"/>
-<path d="M20 20L29.548 10.548L39 20L29.452 29.548L20 20Z" fill="#E0DDA0"/>
-<path d="M1 20L10.548 10.452L20 20L10.5019 29.5019L1 20Z" fill="#FFB7C5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Основа бриллианта -->
+  <polygon points="100,20 40,80 100,180 160,80" fill="#4FC3F7" stroke="#0288D1" stroke-width="4"/>
+  <!-- Верхние грани -->
+  <polygon points="100,20 70,50 40,80 100,60" fill="#81D4FA" stroke="#0288D1" stroke-width="2"/>
+  <polygon points="100,20 130,50 160,80 100,60" fill="#81D4FA" stroke="#0288D1" stroke-width="2"/>
+  <!-- Нижние грани -->
+  <polygon points="40,80 70,50 100,60 100,180" fill="#29B6F6" stroke="#0288D1" stroke-width="2"/>
+  <polygon points="160,80 130,50 100,60 100,180" fill="#29B6F6" stroke="#0288D1" stroke-width="2"/>
+  <!-- Линии граней -->
+  <line x1="70" y1="50" x2="100" y2="180" stroke="#0288D1" stroke-width="2"/>
+  <line x1="130" y1="50" x2="100" y2="180" stroke="#0288D1" stroke-width="2"/>
+  <line x1="40" y1="80" x2="160" y2="80" stroke="#0288D1" stroke-width="2"/>
 </svg>
-

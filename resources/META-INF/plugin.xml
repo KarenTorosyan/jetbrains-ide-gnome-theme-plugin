@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>2.5.9</version>
+    <version>2.5.10</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -23,6 +23,13 @@
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes>
     <![CDATA[
+        <div>
+            <b>v2.5.10</b>
+        </div>
+        <ul>
+            <li>Small improvements to Dark UI components</li>
+            <li>New Dark-Blue Bright+ and Dark-Grey Bright+ modes</li>
+        </ul>
         <div>
             <b>v2.5.9</b>
         </div>
@@ -85,10 +92,12 @@
         <themeProvider id="gnome-dark-blue-flat" path="/theme/GnomeDarkBlueFlat.theme.json"/>
         <themeProvider id="gnome-dark-blue-soft" path="/theme/GnomeDarkBlueSoft.theme.json"/>
         <themeProvider id="gnome-dark-blue-bright" path="/theme/GnomeDarkBlueBright.theme.json"/>
+        <themeProvider id="gnome-dark-blue-bright+" path="/theme/GnomeDarkBlueBright+.theme.json"/>
 
         <!-- dark-grey-->
         <themeProvider id="gnome-dark-grey-soft" path="/theme/GnomeDarkGreySoft.theme.json"/>
         <themeProvider id="gnome-dark-grey-bright" path="/theme/GnomeDarkGreyBright.theme.json"/>
+        <themeProvider id="gnome-dark-grey-bright+" path="/theme/GnomeDarkGreyBright+.theme.json"/>
 
         <!-- default -->
         <themeProvider id="gnome-dark-blue" path="/theme/GnomeDarkBlue.theme.json"/>

@@ -8,17 +8,18 @@
 
     "EditorHeaderBackground": "#1f1f1f",
     "EditorHeaderUnderTabsBorderColor": "#272727",
-    "EditorHeaderTabSelectedBorderColor": "#238E82",
+    "EditorHeaderTabSelectedBorderColor": "#63945e",
     "EditorBackground": "#1E1E1E",
     "BorderColor": "#252525",
     "SearchToolbarBorderColor": "#272727",
-    "SearchBackground": "#212121",
+    "SearchBackground": "#1E1E1E",
     "SeparatorColor": "#373737",
     "GrayBg": "#2B2B2B",
     "MenuBg": "#292929",
+    "PopupBorderColor": "#373737",
 
-    "Gray1": "#212121",
-    "Gray2": "#212121",
+    "Gray1": "#1E1E1E",
+    "Gray2": "#1E1E1E",
     "Gray3": "#373737",
     "Gray4": "#414444",
     "Gray5": "#4E5157",
@@ -150,7 +151,7 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "#272727",
+      "separatorColor": "#292929",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
@@ -158,14 +159,14 @@
 
     "ScrollBar": {
       "Transparent": {
-        "thumbColor": "#191a1c88",
+        "thumbColor": "#4a4a4a99",
         "thumbBorderColor": "#2b2b2b",
-        "hoverThumbColor": "#191a1c99"
+        "hoverThumbColor": "#4a4a4a99"
       },
       "Mac": {
-        "thumbColor": "#191a1c88",
+        "thumbColor": "#4a4a4a99",
         "thumbBorderColor": "#2b2b2b",
-        "hoverThumbColor": "#191a1c99"
+        "hoverThumbColor": "#4a4a4a99"
       }
     },
 
@@ -410,11 +411,11 @@
       "separatorColor": "SeparatorColor",
       "borderWidth": 1,
       "paintBorder": true,
-      "borderColor": "BorderColor",
+      "borderColor": "PopupBorderColor",
       "inactiveBorderColor": "BorderColor",
       "Advertiser": {
         "foreground": "Gray8",
-        "background": "Gray3",
+        "background": "MenuBg",
         "borderColor": "BorderColor",
         "fontSizeOffset": -1
       },
@@ -545,7 +546,7 @@
       }
     },
 
-    "ComplexPopup.Header.background": "Gray3",
+    "ComplexPopup.Header.background": "MenuBg",
 
     "CompletionPopup": {
       "foreground": "Gray10",
@@ -722,7 +723,7 @@
     "ToolWindow": {
       "background": "GrayBg",
       "Header": {
-        "inactiveBackground": "#252525",
+        "inactiveBackground": "#272727",
         "font.size.offset": 0,
         "borderColor": "GrayBg"
       },

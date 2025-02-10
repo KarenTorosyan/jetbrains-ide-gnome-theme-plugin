@@ -1,35 +1,36 @@
 {
-  "name": "GNOME Dark-Blue",
+  "name": "GNOME Dark-Grey Bright+",
   "dark": true,
   "author": "Karen Torosyan",
-  "nameKey": "gnome-dark-blue",
-  "editorScheme": "/scheme/GnomeDarkBlue.xml",
+  "nameKey": "gnome-dark-grey-bright+",
+  "editorScheme": "/scheme/GnomeDarkGreyBright+.xml",
   "colors": {
 
-    "EditorHeaderBackground": "#1c1d20",
-    "EditorHeaderUnderTabsBorderColor": "#26282D",
-    "EditorHeaderTabSelectedBorderColor": "#238E82",
-    "EditorBackground": "#212225",
-    "BorderColor": "#26282D",
-    "SearchToolbarBorderColor": "#26282D",
-    "SearchBackground": "#1E1F22",
-    "SeparatorColor": "#2A2B31",
-    "GrayBg": "#1c1d20",
-    "MenuBg": "#1d1e21",
-    "PopupBorderColor": "#2A2B31",
+    "EditorHeaderBackground": "#272727",
+    "EditorHeaderBorder": "#222222",
+    "EditorHeaderUnderTabsBorderColor": "#272727",
+    "EditorHeaderTabSelectedBorderColor": "#63945e",
+    "EditorBackground": "#212121",
+    "BorderColor": "#222222",
+    "SearchToolbarBorderColor": "#272727",
+    "SearchBackground": "#1E1E1E",
+    "SeparatorColor": "#373737",
+    "GrayBg": "#2B2B2B",
+    "MenuBg": "#292929",
+    "PopupBorderColor": "#373737",
 
-    "Gray1": "#1c1d20",
-    "Gray2": "#1c1d20",
-    "Gray3": "#2f3035",
-    "Gray4": "#43454A",
+    "Gray1": "#272727",
+    "Gray2": "#272727",
+    "Gray3": "#373737",
+    "Gray4": "#414444",
     "Gray5": "#4E5157",
     "Gray6": "#5A5D63",
     "Gray7": "#6F737A",
     "Gray8": "#868A91",
     "Gray9": "#9DA0A8",
     "Gray10": "#B4B8BF",
-    "Gray11": "#C2C4CA",
-    "Gray12": "#C2C4CA",
+    "Gray11": "#CED0D6",
+    "Gray12": "#CED0D6",
     "Gray13": "#F0F1F2",
     "Gray14": "#FFFFFF",
 
@@ -151,7 +152,7 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "#2A2C32",
+      "separatorColor": "#292929",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
@@ -159,22 +160,22 @@
 
     "ScrollBar": {
       "Transparent": {
-        "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#1c1d20",
-        "hoverThumbColor": "#4b4d5399"
+        "thumbColor": "#4a4a4a99",
+        "thumbBorderColor": "#2b2b2b",
+        "hoverThumbColor": "#4a4a4a99"
       },
       "Mac": {
-        "thumbColor": "#4b4d5388",
-        "thumbBorderColor": "#1c1d20",
-        "hoverThumbColor": "#4b4d5399"
+        "thumbColor": "#4a4a4a99",
+        "thumbBorderColor": "#2b2b2b",
+        "hoverThumbColor": "#4a4a4a99"
       }
     },
 
     "ActionButton": {
-      "hoverBackground": "#43454A99",
-      "hoverBorderColor": "#43454A99",
-      "pressedBackground": "#43454A99",
-      "pressedBorderColor": "#43454A99",
+      "hoverBackground": "#48484899",
+      "hoverBorderColor": "#48484899",
+      "pressedBackground": "#48484899",
+      "pressedBorderColor": "#48484899",
       "focusedBorderColor": "Blue6",
       "hoverSeparatorColor": "Gray6"
     },
@@ -330,8 +331,8 @@
       "inactiveColoredFileBackground": "#1E1F2280",
       "underlinedTabBackground": "EditorHeaderBackground",
       "underTabsBorderColor": "EditorHeaderUnderTabsBorderColor",
-      "borderColor": "BorderColor",
-      "inactiveUnderlineColor": "#48484F",
+      "borderColor": "EditorHeaderBorder",
+      "inactiveUnderlineColor": "#484848",
       "underlineColor": "EditorHeaderTabSelectedBorderColor"
     },
 
@@ -394,7 +395,7 @@
     },
     "Menu": {
       "separatorColor": "SeparatorColor",
-      "borderColor": "BorderColor",
+      "borderColor": "SeparatorColor",
       "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
@@ -414,7 +415,7 @@
       "borderColor": "PopupBorderColor",
       "inactiveBorderColor": "BorderColor",
       "Advertiser": {
-        "foreground": "Gray9",
+        "foreground": "Gray8",
         "background": "MenuBg",
         "borderColor": "BorderColor",
         "fontSizeOffset": -1
@@ -494,7 +495,7 @@
         "informativeForeground": "Gray12",
 
         "errorBackground": "Red3",
-        "errorBorderColor": "#432829",
+        "errorBorderColor": "Red4",
         "warningBackground": "Yellow1",
         "warningBorderColor": "Yellow2",
         "informativeBackground": "Green1",
@@ -640,7 +641,7 @@
 
     "DefaultTabs": {
       "borderColor": "BorderColor",
-      "background": "GrayBg"
+      "background": "#323333"
     },
 
     "TabbedPane": {
@@ -723,7 +724,7 @@
     "ToolWindow": {
       "background": "GrayBg",
       "Header": {
-        "inactiveBackground": "GrayBg",
+        "inactiveBackground": "#272727",
         "font.size.offset": 0,
         "borderColor": "BorderColor"
       },
@@ -733,8 +734,8 @@
       },
       "Button": {
         "foreground": "Gray9",
-        "selectedForeground": "Gray13",
-        "selectedBackground": "#43454AAA",
+        "selectedForeground": "Gray14",
+        "selectedBackground": "#484848AA",
         "DragAndDrop" : {
           "stripeBackground" : "Gray2",
           "buttonDropBackground": "#35538F99",

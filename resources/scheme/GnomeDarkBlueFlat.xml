@@ -12,17 +12,17 @@
     <option name="ADDED_LINES_COLOR" value="69b36e" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="bcbec4" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1e1f22" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1e1f22" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1e1f22" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="212225" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="212225" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="212225" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="bcbec4" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="c85160" />
-    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_END" value="1e1f22" />
-    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_START" value="1e1f22" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1e1f22" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_END" value="212225" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_START" value="212225" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="212225" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="26282d" />
-    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="1e1f22" />
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="212225" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
     <option name="CARET_ROW_COLOR" value="27282e" />
@@ -33,26 +33,26 @@
     <option name="DOC_COMMENT_GUIDE" value="394d3f" />
     <option name="DOC_COMMENT_LINK" value="3887a1" />
     <option name="ERROR_HINT" value="402929" />
-    <option name="FILESTATUS_ADDED" value="6fc389" />
-    <option name="FILESTATUS_COPIED" value="6fc389" />
-    <option name="FILESTATUS_DELETED" value="6f737a" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6f737a" />
+    <option name="FILESTATUS_ADDED" value="73CC8f" />
+    <option name="FILESTATUS_COPIED" value="73CC8f" />
+    <option name="FILESTATUS_DELETED" value="787d84" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="787d84" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="909edc" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="de7878" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="de7878" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="de7878" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="6fc389" />
-    <option name="FILESTATUS_MERGED" value="cf87c8" />
-    <option name="FILESTATUS_MODIFIED" value="7db7d8" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7db7d8" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="7db7d8" />
-    <option name="FILESTATUS_RENAMED" value="7db7d8" />
-    <option name="FILESTATUS_UNKNOWN" value="d38e7b" />
-    <option name="FILESTATUS_addedOutside" value="6fc389" />
-    <option name="FILESTATUS_changelistConflict" value="de7878" />
-    <option name="FILESTATUS_modifiedOutside" value="7db7d8" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="7aab3d" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="80803f" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="73CC8f" />
+    <option name="FILESTATUS_MERGED" value="da8df3" />
+    <option name="FILESTATUS_MODIFIED" value="82c1e5" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="82c1e5" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="82c1e5" />
+    <option name="FILESTATUS_RENAMED" value="82c1e5" />
+    <option name="FILESTATUS_UNKNOWN" value="e38f7a" />
+    <option name="FILESTATUS_addedOutside" value="73CC8f" />
+    <option name="FILESTATUS_changelistConflict" value="e57c7c" />
+    <option name="FILESTATUS_modifiedOutside" value="82c1e5" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="393b40" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="69b36e" />
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="868a91" />
