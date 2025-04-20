@@ -981,9 +981,9 @@
 
     "RunWidget" : {
       "foreground": "Gray1",
-      "runningBackground": "Green5",
-      "stopBackground": "Red5",
-      "hoverBackground": "#00000022",
+      "runningBackground": "#a9c8ba99",
+      "stopBackground": "#e9c9cb",
+      "hoverBackground": "#ffffff50",
       "pressedBackground": "#00000028",
       "iconColor": "Gray6",
       "runIconColor": "Green5",

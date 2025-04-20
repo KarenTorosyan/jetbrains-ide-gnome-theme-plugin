@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>2.5.10</version>
+    <version>2.5.11</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -17,65 +17,86 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>Themes with better integration with the GNOME Adwaita theme for Jetbrains IDEs with color schemes for IntelliJ IDEA.</description>
+    <description>Themes with better integration with the GNOME Adwaita theme for Jetbrains IDEs with color schemes for
+        IntelliJ IDEA.
+    </description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes>
-    <![CDATA[
+        <![CDATA[
+        <br>
+        <div>
+            <b>v2.5.11</b>
+        </div>
+        <div>
+            <span>* All themes are improved</span>
+            <br>
+            <span>* New classic color schemes</span>
+            <br>
+            <span>* New Dark-Blue C+ contrast UI variant</span>
+        </div>
+        <br>
         <div>
             <b>v2.5.10</b>
         </div>
-        <ul>
-            <li>Small improvements to Dark UI components</li>
-            <li>New Dark-Blue Bright+ and Dark-Grey Bright+ modes</li>
-        </ul>
+        <div>
+           <span>* Small improvements to Dark UI components</span>
+           <br>
+           <span>* New Dark-Blue Bright+ and Dark-Grey Bright+ modes</span>
+        </div>
+        <br>
         <div>
             <b>v2.5.9</b>
         </div>
-        <ul>
-            <li>Improved UIs, some themes have been renamed</li>
-            <li>Improved comment-text,caret-row,keyword,number,java,kotlin,xml,sql,markdown colors</li>
-        </ul>
+        <div>
+            <span>* Improved UIs, some themes have been renamed</span
+            <br>
+            <span>* Improved comment-text,caret-row,keyword,number,java,kotlin,xml,sql,markdown colors</span>
+        </div>
         <br>
         <div>
             <b>v2.5.8</b>
         </div>
-        <ul>
-            <li>Improved old(stable) terminal and console colors</li>
-            <li>Improved tag,interface colors</li>
-            <li>Improved UI and Editor scrollbars</li>
-            <li>New Dark-Blue Flat mode</li>
-        </ul>
+        <div>
+            <span>* Improved old(stable) terminal and console colors</span>
+            <br>
+            <span>* Improved tag,interface colors</span>
+            <br>
+            <span>* Improved UI and Editor scrollbars</span>
+            <br>
+            <span>* New Dark-Blue Flat mode</span>
+        </div>
         <br>
         <div>
             <b>v2.5.7</b>
         </div>
-        <ul>
-            <li>Improved Menu and Popup components</li>
-        </ul>
+        <div>
+            <span>* Improved Menu and Popup components</span>
+        </div>
         <br>
         <div>
             <b>v2.5.6</b>
         </div>
-        <ul>
-            <li>Improved UIs and color schemes</li>
-        </ul>
+        <div>
+            <span>* Improved UIs and color schemes</span>
+        </div>
         <br>
         <div>
             <b>v2.5.2-5</b>
         </div>
-        <ul>
-            <li>Improved color schemes</li>
-        </ul>
+        <div>
+            <span>* Improved color schemes</span>
+        </div>
         <br>
         <div>
             <b>v2.5.1</b>
         </div>
-        <ul>
-            <li>Created Soft/Lite/Mid/Hard theme variants</li>
-            <li>Some themes have been improved and renamed</li>
-        </ul>
+        <div>
+            <span>* Created Soft/Lite/Mid/Hard theme variants</span>
+            <br>
+            <span>* Some themes have been improved and renamed</span>
+        </div>
     ]]>
     </change-notes>
 
@@ -89,18 +110,26 @@
         <themeProvider id="gnome-light" path="/theme/GnomeLight.theme.json"/>
 
         <!-- dark-blue -->
+        <themeProvider id="gnome-dark-blue" path="/theme/GnomeDarkBlue.theme.json"/>
         <themeProvider id="gnome-dark-blue-flat" path="/theme/GnomeDarkBlueFlat.theme.json"/>
-        <themeProvider id="gnome-dark-blue-soft" path="/theme/GnomeDarkBlueSoft.theme.json"/>
         <themeProvider id="gnome-dark-blue-bright" path="/theme/GnomeDarkBlueBright.theme.json"/>
         <themeProvider id="gnome-dark-blue-bright+" path="/theme/GnomeDarkBlueBright+.theme.json"/>
+        <themeProvider id="gnome-dark-blue-classic" path="/theme/GnomeDarkBlueClassic.theme.json"/>
 
         <!-- dark-grey-->
+        <themeProvider id="gnome-dark-grey-flat" path="/theme/GnomeDarkGreyFlat.theme.json"/>
         <themeProvider id="gnome-dark-grey-soft" path="/theme/GnomeDarkGreySoft.theme.json"/>
         <themeProvider id="gnome-dark-grey-bright" path="/theme/GnomeDarkGreyBright.theme.json"/>
         <themeProvider id="gnome-dark-grey-bright+" path="/theme/GnomeDarkGreyBright+.theme.json"/>
 
         <!-- default -->
-        <themeProvider id="gnome-dark-blue" path="/theme/GnomeDarkBlue.theme.json"/>
+        <themeProvider id="gnome-dark-blue-c+" path="/theme/GnomeDarkBlueC+.theme.json"/>
+
+        <bundledColorScheme path="scheme/GnomeDarkBlueClassic"/>
+        <bundledColorScheme path="scheme/GnomeDarkBlueClassicBright+"/>
+        <bundledColorScheme path="scheme/GnomeDarkGreyClassic"/>
+        <bundledColorScheme path="scheme/GnomeDarkGreyClassicBright+"/>
+
     </extensions>
 </idea-plugin>
 

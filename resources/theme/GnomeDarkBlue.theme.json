@@ -17,6 +17,7 @@
     "GrayBg": "#1c1d20",
     "MenuBg": "#1d1e21",
     "PopupBorderColor": "#2A2B31",
+    "MenuBorderColor": "#26282D",
 
     "Gray1": "#1c1d20",
     "Gray2": "#1c1d20",
@@ -394,7 +395,7 @@
     },
     "Menu": {
       "separatorColor": "SeparatorColor",
-      "borderColor": "BorderColor",
+      "borderColor": "MenuBorderColor",
       "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
@@ -791,9 +792,9 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "#283044",
+          "currentBranchBackground": "#073642",
           "selectionBackground": "Blue2",
-          "selectionInactiveBackground": "#233b6a",
+          "selectionInactiveBackground": "Blue2",
           "unmatchedForeground": "Gray7",
           "hoveredBackground": "#FFFFFFED",
           "Reference.foreground": "Gray7"
