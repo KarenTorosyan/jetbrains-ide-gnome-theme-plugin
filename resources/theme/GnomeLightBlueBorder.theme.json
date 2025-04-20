@@ -1,15 +1,15 @@
 {
-  "name": "GNOME Light",
+  "name": "GNOME Light (Blue Border)",
   "dark": false,
   "author": "Karen Torosyan",
   "parentTheme": "IntelliJ",
-  "nameKey": "gnome-light",
+  "nameKey": "gnome-light-with-blue-border",
   "editorScheme": "/scheme/GnomeLight.xml",
   "colors": {
 
     "EditorHeaderBackground": "#FFFFFF",
     "EditorHeaderUnderTabsBorderColor": "#DFE1E5",
-    "EditorHeaderTabSelectedBorderColor": "#039BA1",
+    "EditorHeaderTabSelectedBorderColor": "#3584e4",
     "EditorBackground": "#FFFFFF",
     "BorderColor": "#DFE1E5",
     "SearchToolbarBorderColor": "#DFE1E5",

@@ -3,12 +3,12 @@
   "dark": true,
   "author": "Karen Torosyan",
   "nameKey": "gnome-dark-grey-soft",
-  "editorScheme": "/scheme/GnomeDarkGreySoft.xml",
+  "editorScheme": "/scheme/GnomeDarkGreyBright.xml",
   "colors": {
 
     "EditorHeaderBackground": "#1E1E1E",
     "EditorHeaderUnderTabsBorderColor": "#2C2C2C",
-    "EditorHeaderTabSelectedBorderColor": "#63945e",
+    "EditorHeaderTabSelectedBorderColor": "#3584e4",
     "EditorBackground": "#1E1E1E",
     "BorderColor": "#2C2C2C",
     "SearchToolbarBorderColor": "#2C2C2C",
@@ -17,6 +17,7 @@
     "GrayBg": "#252525",
     "MenuBg": "#222222",
     "PopupBorderColor": "#2D2D2D",
+    "MenuBorderColor": "#2D2D2D",
 
     "Gray1": "#1E1E1E",
     "Gray2": "#1E1E1E",
@@ -28,8 +29,8 @@
     "Gray8": "#868A91",
     "Gray9": "#9DA0A8",
     "Gray10": "#B4B8BF",
-    "Gray11": "#CED0D6",
-    "Gray12": "#CED0D6",
+    "Gray11": "#DFDFE0",
+    "Gray12": "#DFDFE0",
     "Gray13": "#F0F1F2",
     "Gray14": "#FFFFFF",
 
@@ -394,7 +395,7 @@
     },
     "Menu": {
       "separatorColor": "SeparatorColor",
-      "borderColor": "SeparatorColor",
+      "borderColor": "MenuBorderColor",
       "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
@@ -791,9 +792,9 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "#283044",
+          "currentBranchBackground": "#073642",
           "selectionBackground": "Blue2",
-          "selectionInactiveBackground": "#233b6a",
+          "selectionInactiveBackground": "Blue2",
           "unmatchedForeground": "Gray7",
           "hoveredBackground": "#FFFFFFED",
           "Reference.foreground": "Gray7"

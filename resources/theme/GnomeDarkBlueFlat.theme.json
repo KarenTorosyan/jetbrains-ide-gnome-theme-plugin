@@ -10,13 +10,14 @@
     "EditorHeaderUnderTabsBorderColor": "#26282D",
     "EditorHeaderTabSelectedBorderColor": "#238E82",
     "EditorBackground": "#212225",
-    "BorderColor": "#2A2C31",
+    "BorderColor": "#2D2F34",
     "SearchToolbarBorderColor": "#26282D",
     "SearchBackground": "#1f2023",
-    "SeparatorColor": "#27292E",
+    "SeparatorColor": "#2D2F34",
     "GrayBg": "#212225",
-    "MenuBg": "#1e1f22",
+    "MenuBg": "#212225",
     "PopupBorderColor": "#27292E",
+    "MenuBorderColor": "#2B2D32",
 
     "Gray1": "#212225",
     "Gray2": "#212225",
@@ -28,8 +29,8 @@
     "Gray8": "#868A91",
     "Gray9": "#9DA0A8",
     "Gray10": "#B4B8BF",
-    "Gray11": "#C7C9CE",
-    "Gray12": "#C7C9CE",
+    "Gray11": "#DFDFE0",
+    "Gray12": "#DFDFE0",
     "Gray13": "#F0F1F2",
     "Gray14": "#FFFFFF",
 
@@ -151,7 +152,7 @@
 
       "focusColor": "Blue6",
 
-      "separatorColor": "#2A2C32",
+      "separatorColor": "#2D2F34",
       "separatorForeground": "Gray7",
 
       "modifiedItemForeground": "Blue9"
@@ -394,7 +395,7 @@
     },
     "Menu": {
       "separatorColor": "SeparatorColor",
-      "borderColor": "BorderColor",
+      "borderColor": "MenuBorderColor",
       "background": "MenuBg",
       "selectionBackground": "Gray3"
     },
@@ -791,9 +792,9 @@
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "#283044",
+          "currentBranchBackground": "#073642",
           "selectionBackground": "Blue2",
-          "selectionInactiveBackground": "#233b6a",
+          "selectionInactiveBackground": "Blue2",
           "unmatchedForeground": "Gray7",
           "hoveredBackground": "#FFFFFFED",
           "Reference.foreground": "Gray7"

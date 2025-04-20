@@ -1,4 +1,4 @@
-<scheme name="GNOME Dark-Blue Bright+" version="142" parent_scheme="Darcula">
+<scheme name="GNOME Dark-Grey Classic" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">idea</property>
@@ -12,24 +12,24 @@
     <option name="ADDED_LINES_COLOR" value="69b36e" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
     <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="bcbec4" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1e1f22" />
-    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1e1f22" />
-    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1e1f22" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="1e1e1e" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="1e1e1e" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="1e1e1e" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="bcbec4" />
     <option name="BLOCK_TERMINAL_ERROR_BLOCK_STROKE_COLOR" value="df495c" />
-    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_END" value="1e1f22" />
-    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_START" value="1e1f22" />
-    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1e1f22" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_END" value="1e1e1e" />
+    <option name="BLOCK_TERMINAL_HOVERED_BLOCK_BACKGROUND_START" value="1e1e1e" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="1e1e1e" />
     <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="26282d" />
-    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="1e1f22" />
+    <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="1e1e1e" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="ff0000" />
-    <option name="CARET_ROW_COLOR" value="27282e" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="28292c" />
+    <option name="CARET_ROW_COLOR" value="262626" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1f1f1f" />
     <option name="DELETED_LINES_COLOR" value="868a91" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
-    <option name="DOCUMENTATION_COLOR" value="232427" />
+    <option name="DOCUMENTATION_COLOR" value="1e1e1e" />
     <option name="DOC_COMMENT_GUIDE" value="394d3f" />
     <option name="DOC_COMMENT_LINK" value="3887a1" />
     <option name="ERROR_HINT" value="402929" />
@@ -58,19 +58,19 @@
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="868a91" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="cf87c8" />
     <option name="INDENT_GUIDE" value="313438" />
-    <option name="INFORMATION_HINT" value="232427" />
+    <option name="INFORMATION_HINT" value="1e1e1e" />
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="393b40" />
     <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="393b40" />
     <option name="LINE_NUMBERS_COLOR" value="717379" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a1a3ab" />
-    <option name="LOOKUP_COLOR" value="232427" />
+    <option name="LOOKUP_COLOR" value="1e1e1e" />
     <option name="METHOD_SEPARATORS_COLOR" value="43454a" />
     <option name="MODIFIED_LINES_COLOR" value="cf87c8" />
     <option name="NOTIFICATION_BACKGROUND" value="25324d" />
     <option name="PROMOTION_PANE" value="25324d" />
     <option name="QUESTION_HINT" value="25324d" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="232427" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="1e1e1e" />
     <option name="RIGHT_MARGIN_COLOR" value="393b40" />
     <option name="SELECTED_INDENT_GUIDE" value="666870" />
     <option name="SELECTION_BACKGROUND" value="2b3233" />
@@ -80,7 +80,7 @@
     <option name="ScrollBar.Mac.thumbBorderColor" value="1c1d20" />
     <option name="ScrollBar.Transparent.hoverThumbColor" value="4b4d5399" />
     <option name="ScrollBar.Transparent.thumbColor" value="4b4d5388" />
-    <option name="ScrollBar.Transparent.thumbBorderColor" value="1c1d20" />
+    <option name="ScrollBar.Transparent.thumbBorderColor" value="1e1e1e" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="2f5194" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="2d416b" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="283754" />
@@ -432,7 +432,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="7c9377" />
+        <option name="FOREGROUND" value="8ca387" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -463,7 +463,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="7c9377" />
+        <option name="FOREGROUND" value="8ca387" />
         <!-- <option name="FONT_TYPE" value="2" /> italic_off -->
       </value>
     </option>
@@ -537,7 +537,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="8c99dc" />
+        <option name="FOREGROUND" value="bcbec4" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -1248,7 +1248,7 @@
     </option>
     <option name="SQL_COMMENT">
       <value>
-        <option name="FOREGROUND" value="7c9377" />
+        <option name="FOREGROUND" value="8ca387" />
       </value>
     </option>
     <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
@@ -1262,7 +1262,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="bcbec4" />
-        <option name="BACKGROUND" value="1e1f22" />
+        <option name="BACKGROUND" value="1e1e1e" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1385,18 +1385,18 @@
     </option>
     <option name="XML_PROLOGUE">
       <value>
-        <option name="FOREGROUND" value="e399dd" />
+        <option name="FOREGROUND" value="db8bd1" />
       </value>
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="e399dd" />
+        <option name="FOREGROUND" value="db8bd1" />
       </value>
     </option>
     <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="8c99dc" />
+        <option name="FOREGROUND" value="db8bd1" />
       </value>
     </option>
     <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
