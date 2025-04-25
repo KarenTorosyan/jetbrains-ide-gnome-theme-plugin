@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>gnome-theme</id>
-    <version>2.5.12</version>
+    <version>2.5.13</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -25,6 +25,13 @@
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes>
         <![CDATA[
+        <br>
+        <div>
+            <b>v2.5.13</b>
+        </div>
+        <div>
+            <span>* Fix injected languages foreground.</span>
+        </div>
         <br>
         <div>
             <b>v2.5.11-12</b>

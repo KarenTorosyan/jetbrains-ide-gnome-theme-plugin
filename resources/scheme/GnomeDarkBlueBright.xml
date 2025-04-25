@@ -783,7 +783,6 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
-        <option name="FOREGROUND" value="e5876f" />
         <option name="BACKGROUND" value="282f30" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -1172,6 +1171,11 @@
     <option name="PROTO_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="82bbf4" />
+      </value>
+    </option>
+    <option name="QL_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="e5876f" />
       </value>
     </option>
     <option name="QUTE_BACKGROUND">
